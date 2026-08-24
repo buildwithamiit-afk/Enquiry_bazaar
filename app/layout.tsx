@@ -62,6 +62,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://enquirybazaar.in",
   },
+  verification: {
+    other: {
+      "msvalidate.01": "5C230C8F4C281A68435E0CA852A1CD48",
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
