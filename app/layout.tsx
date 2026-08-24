@@ -63,6 +63,7 @@ export const metadata: Metadata = {
     canonical: "https://enquirybazaar.in",
   },
   verification: {
+    google: "hFt_mJBPtKN2hcflUmGybe8njF6O4VeqP6bvROnRm7k",
     other: {
       "msvalidate.01": "5C230C8F4C281A68435E0CA852A1CD48",
     },
