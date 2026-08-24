@@ -1,0 +1,45 @@
+# Robots.txt for EnquiryBazaar.in
+# Configured for standard search engines & generative AI search crawlers (GEO)
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# OpenAI / ChatGPT / SearchGPT Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude Crawlers
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI Crawlers
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI & Extended Crawlers
+User-agent: Google-Extended
+Allow: /
+
+# Apple AI & Siri Knowledge
+User-agent: Applebot-Extended
+Allow: /
+
+# Cohere & Other Generative Models
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# Sitemap & AI Knowledge Files
+Sitemap: https://enquirybazaar.in/sitemap.xml
+# LLMs knowledge standard:
+# https://enquirybazaar.in/llms.txt
+# https://enquirybazaar.in/llms-full.txt
