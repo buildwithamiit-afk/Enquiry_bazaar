@@ -1,6 +1,6 @@
 import React from "react";
 import { Montserrat, Inter } from "next/font/google";
-import { Bot, Sparkles, Check, ArrowRight } from "lucide-react";
+import { Sparkles, Check, ArrowRight } from "lucide-react";
 import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 import { whatsappCta } from "../landing/content";
 
@@ -46,16 +46,16 @@ export function LLMKnowledgeBase() {
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-2xs">
-            <Bot className="h-3.5 w-3.5 text-[#1E5EFF]" />
-            <span>ENQUIRYBAZAAR AT A GLANCE FOR AI &amp; SEARCH</span>
+            <Sparkles className="h-3.5 w-3.5 text-[#1E5EFF]" />
+            <span>KEY FACTS &amp; OVERVIEW</span>
           </div>
 
           <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.2rem] leading-tight ${montserrat.className}`}>
-            Frequently Researched Facts &amp; Direct Answers
+            Core Business Facts &amp; Direct Answers
           </h2>
 
           <p className="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Clear facts and direct answers about EnquiryBazaar&apos;s B2B lead generation, complete digital presence setup, and Google/Meta ads management.
+            Everything you need to know about EnquiryBazaar&apos;s direct buyer acquisition engine, complete digital presence setup, and B2B growth management.
           </p>
         </div>
 
