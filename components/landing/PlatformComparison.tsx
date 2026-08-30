@@ -121,12 +121,12 @@ export function PlatformComparison() {
         
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-xs">
-            <Zap className="h-3.5 w-3.5 text-[#1E5EFF]" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-xs">
+            <Zap className="h-3.5 w-3.5 text-[#FE5905]" />
             <span>THE HONEST COMPARISON</span>
           </div>
 
-          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.35rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.35rem] leading-tight ${montserrat.className}`}>
             Traditional B2B Portals <span className="text-slate-400 font-medium">vs</span> Our Direct Engine
           </h2>
 
@@ -169,13 +169,13 @@ export function PlatformComparison() {
             </div>
 
             {/* Col 3 Header: EnquiryBazaar Direct Setup */}
-            <div className="px-6 py-5 bg-gradient-to-r from-[#1E5EFF] via-blue-600 to-indigo-600 text-white">
+            <div className="px-6 py-5 bg-gradient-to-r from-[#FE5905] via-orange-600 to-orange-600 text-white">
               <div className="flex items-center justify-between gap-2">
-                <span className="inline-flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-wider text-blue-100">
+                <span className="inline-flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-wider text-orange-100">
                   <Sparkles className="h-3.5 w-3.5 text-amber-300 fill-amber-300" />
                   Direct Acquisition Engine
                 </span>
-                <span className="rounded-full bg-emerald-400 px-2.5 py-0.5 text-[11px] font-extrabold text-[#0B1E3D] shadow-xs">
+                <span className="rounded-full bg-emerald-400 px-2.5 py-0.5 text-[11px] font-extrabold text-[#001A55] shadow-xs">
                   100% Owned
                 </span>
               </div>
@@ -196,10 +196,10 @@ export function PlatformComparison() {
                 
                 {/* Col 1: Metric */}
                 <div className="flex flex-col justify-center px-6 py-5 bg-slate-50/70 border-r-2 border-slate-200">
-                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#1E5EFF]">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-[#FE5905]">
                     {row.category}
                   </span>
-                  <span className={`text-[15px] font-bold text-[#0B1E3D] mt-0.5 ${montserrat.className}`}>
+                  <span className={`text-[15px] font-bold text-[#001A55] mt-0.5 ${montserrat.className}`}>
                     {row.parameter}
                   </span>
                 </div>
@@ -222,7 +222,7 @@ export function PlatformComparison() {
                 </div>
 
                 {/* Col 3: EnquiryBazaar Setup */}
-                <div className="flex flex-col justify-center px-6 py-5 bg-blue-50/35">
+                <div className="flex flex-col justify-center px-6 py-5 bg-orange-50/35">
                   <div className="flex items-start gap-3">
                     <div className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-500 text-white shadow-xs">
                       <Check className="h-3.5 w-3.5 stroke-[3]" />
@@ -255,10 +255,10 @@ export function PlatformComparison() {
             >
               {/* Metric Title Banner */}
               <div className="bg-slate-100 px-4 py-2.5 border-b border-slate-200">
-                <span className="text-[10.5px] font-bold uppercase tracking-wider text-[#1E5EFF]">
+                <span className="text-[10.5px] font-bold uppercase tracking-wider text-[#FE5905]">
                   {row.category}
                 </span>
-                <h4 className={`text-sm font-bold text-[#0B1E3D] ${montserrat.className}`}>
+                <h4 className={`text-sm font-bold text-[#001A55] ${montserrat.className}`}>
                   {row.parameter}
                 </h4>
               </div>
@@ -277,9 +277,9 @@ export function PlatformComparison() {
                 </div>
 
                 {/* EnquiryBazaar Card */}
-                <div className="rounded-xl border-2 border-blue-500/40 bg-blue-50/60 p-3 shadow-xs">
+                <div className="rounded-xl border-2 border-orange-500/40 bg-orange-50/60 p-3 shadow-xs">
                   <div className="flex items-center justify-between mb-1.5">
-                    <span className="text-xs font-bold text-[#1E5EFF]">👑 EnquiryBazaar Setup</span>
+                    <span className="text-xs font-bold text-[#FE5905]">👑 EnquiryBazaar Setup</span>
                     <span className="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-1.5 py-0.5 rounded">100% Owned</span>
                   </div>
                   <p className="text-xs font-medium text-slate-900 leading-relaxed">
@@ -292,11 +292,11 @@ export function PlatformComparison() {
         </div>
 
         {/* High-Impact Bottom Callout & Action Bar */}
-        <div className="mt-10 rounded-2xl bg-gradient-to-r from-[#0B1E3D] via-[#102B52] to-[#0B1E3D] p-6 sm:p-8 text-white shadow-xl shadow-slate-900/10">
+        <div className="mt-10 rounded-2xl bg-gradient-to-r from-[#001A55] via-[#001A55] to-[#001A55] p-6 sm:p-8 text-white shadow-xl shadow-slate-900/10">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             
             <div className="flex items-center gap-4 text-left">
-              <div className="hidden sm:flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-500/20 border border-blue-400/30 text-[#1E5EFF]">
+              <div className="hidden sm:flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-orange-500/20 border border-orange-400/30 text-[#FE5905]">
                 <ShieldCheck className="h-6 w-6 text-emerald-400" />
               </div>
               <div>
@@ -323,7 +323,7 @@ export function PlatformComparison() {
 
               <a
                 href={consultationCta.href}
-                className="group inline-flex items-center gap-2 rounded-xl bg-[#1E5EFF] px-6 py-3 text-xs sm:text-sm font-bold text-white shadow-lg shadow-blue-500/25 transition hover:bg-blue-600 active:scale-95"
+                className="group inline-flex items-center gap-2 rounded-xl bg-[#FE5905] px-6 py-3 text-xs sm:text-sm font-bold text-white shadow-lg shadow-orange-500/25 transition hover:bg-orange-600 active:scale-95"
               >
                 <span>Book Free Demo</span>
                 <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" />

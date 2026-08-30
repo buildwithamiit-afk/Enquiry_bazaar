@@ -78,13 +78,13 @@ export default function GMBRankingExpertPage() {
           <div className="mx-auto w-full max-w-7xl px-5 pb-14 pt-8 sm:px-8 sm:pt-10 lg:px-10 lg:pb-20 lg:pt-12 xl:pt-14">
             <div className="grid items-center gap-8 lg:grid-cols-[1fr_1.15fr] xl:grid-cols-[1fr_1.25fr] lg:gap-10 xl:gap-14">
               <div className="relative z-10 flex flex-col items-center text-center lg:items-start lg:text-left">
-                <div className="mb-3.5 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50/80 px-3.5 py-1 text-[11.5px] font-bold text-[#1E5EFF] shadow-2xs">
+                <div className="mb-3.5 inline-flex items-center gap-2 rounded-full border border-orange-100 bg-orange-50/80 px-3.5 py-1 text-[11.5px] font-bold text-[#FE5905] shadow-2xs">
                   <MapPin className="h-3.5 w-3.5" />
                   <span>Navi Mumbai's Leading GMB Ranking Specialist</span>
                 </div>
 
-                <h1 className={`text-[2rem] font-extrabold leading-[1.15] tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.65rem] xl:text-[2.85rem] ${montserrat.className}`}>
-                  Stuck on Page 2 of Google Maps? Hire Navi Mumbai's <span className="text-[#1E5EFF]">GMB Ranking Expert</span>.
+                <h1 className={`text-[2rem] font-extrabold leading-[1.15] tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.65rem] xl:text-[2.85rem] ${montserrat.className}`}>
+                  Stuck on Page 2 of Google Maps? Hire Navi Mumbai's <span className="text-[#FE5905]">GMB Ranking Expert</span>.
                 </h1>
 
                 <p className="mt-3.5 max-w-xl text-[14.5px] font-normal leading-relaxed text-slate-600 sm:text-[16px] xl:max-w-2xl">
@@ -102,7 +102,7 @@ export default function GMBRankingExpertPage() {
                     <PhoneCall className="h-4 w-4" />
                     <span>Talk to GMB Expert on WhatsApp</span>
                   </a>
-                  <a href="#qr-generator" className="group flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-[#1E5EFF] px-6 py-3.5 text-sm font-bold text-white shadow-md shadow-blue-500/20 transition-all hover:bg-blue-600 active:scale-95">
+                  <a href="#qr-generator" className="group flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-[#FE5905] px-6 py-3.5 text-sm font-bold text-white shadow-md shadow-orange-500/20 transition-all hover:bg-orange-600 active:scale-95">
                     <span>Free Review QR Tool</span>
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                   </a>
@@ -126,15 +126,15 @@ export default function GMBRankingExpertPage() {
         {/* Technical GMB Pillars */}
         <section className={`py-18 px-5 sm:px-8 lg:px-10 bg-white ${inter.className}`}>
           <div className="mx-auto max-w-6xl text-center">
-            <h2 className={`text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#0B1E3D] ${montserrat.className}`}>
-              Why Our <span className="text-[#1E5EFF]">GMB Ranking Protocol</span> Works
+            <h2 className={`text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#001A55] ${montserrat.className}`}>
+              Why Our <span className="text-[#FE5905]">GMB Ranking Protocol</span> Works
             </h2>
             <p className="mt-3.5 max-w-2xl mx-auto text-slate-600 text-sm sm:text-base">
               We fix the underlying Google ranking algorithm signals: Relevance, Distance, and Authority.
             </p>
             <div className="mt-12 grid gap-6 sm:grid-cols-3 text-left">
               <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-6 shadow-xs">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-100 text-[#1E5EFF]"><Layers className="h-5 w-5" /></div>
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-orange-100 text-[#FE5905]"><Layers className="h-5 w-5" /></div>
                 <h3 className="mt-4 text-lg font-bold text-slate-900">1. Category Optimization</h3>
                 <p className="mt-2 text-sm text-slate-600 leading-relaxed">We map your profile to high-intent primary and secondary B2B categories to immediately unlock search volume.</p>
               </div>
@@ -155,7 +155,7 @@ export default function GMBRankingExpertPage() {
         {/* Why Choose Us */}
         <section className={`py-16 px-5 sm:px-8 lg:px-10 bg-slate-50 ${inter.className}`}>
           <div className="mx-auto max-w-4xl text-center">
-            <h2 className={`text-2xl sm:text-3xl font-bold text-[#0B1E3D] ${montserrat.className}`}>Why Choose <span className="text-[#1E5EFF]">EnquiryBazaar?</span></h2>
+            <h2 className={`text-2xl sm:text-3xl font-bold text-[#001A55] ${montserrat.className}`}>Why Choose <span className="text-[#FE5905]">EnquiryBazaar?</span></h2>
             <div className="mt-10 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden text-left">
               <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-100">
                 <div className="p-8">
@@ -166,8 +166,8 @@ export default function GMBRankingExpertPage() {
                     <li>❌ Cannot handle Google policy verification audits.</li>
                   </ul>
                 </div>
-                <div className="p-8 bg-blue-50/30">
-                  <h3 className="text-lg font-bold text-[#1E5EFF] mb-4">EnquiryBazaar GMB Experts</h3>
+                <div className="p-8 bg-orange-50/30">
+                  <h3 className="text-lg font-bold text-[#FE5905] mb-4">EnquiryBazaar GMB Experts</h3>
                   <ul className="space-y-3 text-sm text-slate-700 font-medium">
                     <li>✅ 100% Policy-Safe Algorithm Ranking.</li>
                     <li>✅ Complete EXIF Geo-tagging for your machinery.</li>

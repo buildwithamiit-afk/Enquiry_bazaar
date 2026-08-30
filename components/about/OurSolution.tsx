@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const pillars = [
   {
-    icon: <Lock className="h-5 w-5 text-[#1E5EFF]" />,
+    icon: <Lock className="h-5 w-5 text-[#FE5905]" />,
     title: "100% Digital Asset Ownership",
     tagline: "Everything is registered in your business name.",
     description:
@@ -31,7 +31,7 @@ const pillars = [
     ],
   },
   {
-    icon: <Users2 className="h-5 w-5 text-indigo-600" />,
+    icon: <Users2 className="h-5 w-5 text-orange-600" />,
     title: "Dedicated Experts Managing Everything",
     tagline: "You focus on production. We manage all digital work.",
     description:
@@ -51,12 +51,12 @@ export function OurSolution() {
         
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-2xs">
-            <Zap className="h-3.5 w-3.5 text-[#1E5EFF]" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-2xs">
+            <Zap className="h-3.5 w-3.5 text-[#FE5905]" />
             <span>HOW ENQUIRYBAZAAR HELPS YOU</span>
           </div>
 
-          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.2rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.2rem] leading-tight ${montserrat.className}`}>
             Our 3 Pillars of Manufacturer Independence
           </h2>
 
@@ -70,7 +70,7 @@ export function OurSolution() {
           {pillars.map((pillar, idx) => (
             <div
               key={pillar.title}
-              className="rounded-2xl border-2 border-slate-200 bg-gradient-to-r from-[#F8FAFC] via-white to-[#F8FAFC] p-5 sm:p-7 shadow-xs transition hover:border-blue-400 hover:shadow-md"
+              className="rounded-2xl border-2 border-slate-200 bg-gradient-to-r from-[#F8FAFC] via-white to-[#F8FAFC] p-5 sm:p-7 shadow-xs transition hover:border-orange-400 hover:shadow-md"
             >
               <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-5 lg:gap-6 items-center">
                 
@@ -81,10 +81,10 @@ export function OurSolution() {
                       {pillar.icon}
                     </div>
                     <div>
-                      <span className="text-[11px] font-bold uppercase tracking-wider text-[#1E5EFF]">
+                      <span className="text-[11px] font-bold uppercase tracking-wider text-[#FE5905]">
                         Pillar 0{idx + 1}
                       </span>
-                      <h3 className={`text-base sm:text-lg font-bold text-[#0B1E3D] leading-tight ${montserrat.className}`}>
+                      <h3 className={`text-base sm:text-lg font-bold text-[#001A55] leading-tight ${montserrat.className}`}>
                         {pillar.title}
                       </h3>
                     </div>

@@ -60,7 +60,7 @@ const industries: IndustryCardItem[] = [
   },
   {
     title: "Custom OEM &\nFabricators",
-    image: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=260&q=80",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=260&q=80",
     alt: "Custom Metal and OEM Fabrication",
   },
 ];
@@ -77,11 +77,11 @@ export function Industries() {
         
         {/* Section Header with Eyebrow Tag */}
         <div className="mx-auto max-w-2xl text-center">
-          <div className="mb-2.5 inline-flex items-center gap-1.5 rounded-full border border-blue-200/80 bg-blue-50 px-3 py-0.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-xs">
+          <div className="mb-2.5 inline-flex items-center gap-1.5 rounded-full border border-orange-200/80 bg-orange-50 px-3 py-0.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-xs">
             <span>WHO WE EMPOWER</span>
           </div>
 
-          <h2 className={`text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.25rem] ${montserrat.className}`}>
+          <h2 className={`text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.25rem] ${montserrat.className}`}>
             Built for Manufacturers &amp; B2B Businesses
           </h2>
           
@@ -95,17 +95,17 @@ export function Industries() {
           {industries.map((item) => (
             <div
               key={item.title}
-              className="group relative flex h-[86px] sm:h-[92px] items-center justify-between overflow-hidden rounded-2xl border border-slate-200/90 bg-white pl-5 pr-2 shadow-xs transition-all duration-150 hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-sm"
+              className="group relative flex h-[86px] sm:h-[92px] items-center justify-between overflow-hidden rounded-2xl border border-slate-200/90 bg-white pl-5 pr-2 shadow-xs transition-all duration-150 hover:-translate-y-0.5 hover:border-orange-300 hover:shadow-sm"
             >
               {/* Left Industry Name */}
               <div className="relative z-10">
-                <h3 className={`text-[14.5px] sm:text-[15px] font-bold leading-snug text-[#0B1E3D] group-hover:text-[#1E5EFF] transition-colors ${jakarta.className}`}>
+                <h3 className={`text-[14.5px] sm:text-[15px] font-bold leading-snug text-[#001A55] group-hover:text-[#FE5905] transition-colors ${jakarta.className}`}>
                   {item.title}
                 </h3>
               </div>
 
               {/* Right Cutout Image with Soft Backdrop */}
-              <div className="relative h-[70px] w-[70px] sm:h-[76px] sm:w-[76px] shrink-0 overflow-hidden rounded-xl bg-blue-50/60">
+              <div className="relative h-[70px] w-[70px] sm:h-[76px] sm:w-[76px] shrink-0 overflow-hidden rounded-xl bg-orange-50/60">
                 <Image
                   src={item.image}
                   alt={item.alt}
@@ -118,7 +118,7 @@ export function Industries() {
           ))}
 
           {/* Final Gradient Banner Card (Spanning 2 Columns) */}
-          <div className="relative flex h-[86px] sm:h-[92px] items-center justify-between gap-4 overflow-hidden rounded-2xl bg-gradient-to-r from-[#5932EA] via-[#205BEA] to-[#00C4CC] px-6 text-white shadow-sm sm:col-span-2">
+          <div className="relative flex h-[86px] sm:h-[92px] items-center justify-between gap-4 overflow-hidden rounded-2xl bg-gradient-to-r from-[#FE5905] via-[#FE5905] to-[#FF7E04] px-6 text-white shadow-sm sm:col-span-2">
             <div>
               <h3 className={`text-[15px] sm:text-[16px] font-bold text-white leading-tight ${jakarta.className}`}>
                 And many more businesses like<br className="hidden sm:inline" /> yours

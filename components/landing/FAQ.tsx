@@ -64,12 +64,12 @@ export function FAQ() {
         
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-xs">
-            <HelpCircle className="h-3.5 w-3.5 text-[#1E5EFF]" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-xs">
+            <HelpCircle className="h-3.5 w-3.5 text-[#FE5905]" />
             <span>FREQUENTLY ASKED QUESTIONS</span>
           </div>
 
-          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.25rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.25rem] leading-tight ${montserrat.className}`}>
             Got Questions? We Have Answers.
           </h2>
 
@@ -87,7 +87,7 @@ export function FAQ() {
                 key={faq.question}
                 className={`overflow-hidden rounded-2xl border transition-all duration-200 ${
                   isOpen
-                    ? "border-blue-500/40 bg-blue-50/20 shadow-sm"
+                    ? "border-orange-500/40 bg-orange-50/20 shadow-sm"
                     : "border-slate-200 bg-white hover:border-slate-300"
                 }`}
               >
@@ -97,13 +97,13 @@ export function FAQ() {
                   className="flex w-full items-center justify-between gap-4 p-5 text-left transition-colors"
                   aria-expanded={isOpen}
                 >
-                  <span className={`text-sm sm:text-[15.5px] font-bold text-[#0B1E3D] ${montserrat.className}`}>
+                  <span className={`text-sm sm:text-[15.5px] font-bold text-[#001A55] ${montserrat.className}`}>
                     {faq.question}
                   </span>
                   <div
                     className={`grid h-7 w-7 shrink-0 place-items-center rounded-full transition-transform duration-300 ${
                       isOpen
-                        ? "rotate-180 bg-[#1E5EFF] text-white"
+                        ? "rotate-180 bg-[#FE5905] text-white"
                         : "bg-slate-100 text-slate-600"
                     }`}
                   >
@@ -112,7 +112,7 @@ export function FAQ() {
                 </button>
 
                 {isOpen && (
-                  <div className="px-5 pb-5 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-blue-100/60 mt-1">
+                  <div className="px-5 pb-5 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-orange-100/60 mt-1">
                     <p className="pt-2">{faq.answer}</p>
                   </div>
                 )}
@@ -124,7 +124,7 @@ export function FAQ() {
         {/* Still Have Questions? Banner */}
         <div className="mt-10 rounded-2xl border border-slate-200 bg-slate-50/80 p-6 text-center sm:flex sm:items-center sm:justify-between sm:text-left">
           <div>
-            <h4 className={`text-base font-bold text-[#0B1E3D] ${montserrat.className}`}>
+            <h4 className={`text-base font-bold text-[#001A55] ${montserrat.className}`}>
               Still have questions about your specific industry?
             </h4>
             <p className="mt-1 text-xs text-slate-600">

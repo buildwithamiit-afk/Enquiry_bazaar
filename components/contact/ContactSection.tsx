@@ -41,12 +41,12 @@ export function ContactSection() {
         
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-2xs">
-            <Sparkles className="h-3.5 w-3.5 text-[#1E5EFF]" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-2xs">
+            <Sparkles className="h-3.5 w-3.5 text-[#FE5905]" />
             <span>DIRECT ACCESS &amp; CONSULTATION</span>
           </div>
 
-          <h1 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.35rem] leading-tight ${montserrat.className}`}>
+          <h1 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.35rem] leading-tight ${montserrat.className}`}>
             Contact EnquiryBazaar
           </h1>
 
@@ -95,7 +95,7 @@ export function ContactSection() {
             {/* Direct Phone Helpline Card */}
             <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xs">
               <div className="flex items-center gap-3">
-                <div className="grid h-11 w-11 place-items-center rounded-xl bg-blue-50 text-[#1E5EFF] border border-blue-100">
+                <div className="grid h-11 w-11 place-items-center rounded-xl bg-orange-50 text-[#FE5905] border border-orange-100">
                   <PhoneCall className="h-5 w-5" />
                 </div>
                 <div>
@@ -104,7 +104,7 @@ export function ContactSection() {
                   </span>
                   <a
                     href="tel:+919696717305"
-                    className={`text-lg font-extrabold text-[#0B1E3D] hover:text-[#1E5EFF] transition-colors ${montserrat.className}`}
+                    className={`text-lg font-extrabold text-[#001A55] hover:text-[#FE5905] transition-colors ${montserrat.className}`}
                   >
                     +91 96967 17305
                   </a>
@@ -135,7 +135,7 @@ export function ContactSection() {
 
           {/* Right Column: Interactive Quick Discovery Form */}
           <div className="rounded-2xl border-2 border-slate-200 bg-white p-6 sm:p-8 shadow-sm">
-            <h3 className={`text-lg sm:text-xl font-bold text-[#0B1E3D] ${montserrat.className}`}>
+            <h3 className={`text-lg sm:text-xl font-bold text-[#001A55] ${montserrat.className}`}>
               Request a Free 15-Minute B2B Growth Audit
             </h3>
             <p className="mt-1 text-xs sm:text-[13px] text-slate-500">
@@ -153,7 +153,7 @@ export function ContactSection() {
                   placeholder="e.g. Rajesh Sharma"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#1E5EFF] focus:outline-none focus:ring-2 focus:ring-blue-100"
+                  className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#FE5905] focus:outline-none focus:ring-2 focus:ring-orange-100"
                 />
               </div>
 
@@ -168,7 +168,7 @@ export function ContactSection() {
                     placeholder="+91 98765 43210"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#1E5EFF] focus:outline-none focus:ring-2 focus:ring-blue-100"
+                    className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#FE5905] focus:outline-none focus:ring-2 focus:ring-orange-100"
                   />
                 </div>
 
@@ -181,7 +181,7 @@ export function ContactSection() {
                     placeholder="e.g. Apex Packaging Works"
                     value={formData.businessName}
                     onChange={(e) => setFormData({ ...formData, businessName: e.target.value })}
-                    className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#1E5EFF] focus:outline-none focus:ring-2 focus:ring-blue-100"
+                    className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#FE5905] focus:outline-none focus:ring-2 focus:ring-orange-100"
                   />
                 </div>
               </div>
@@ -194,7 +194,7 @@ export function ContactSection() {
                   <select
                     value={formData.industry}
                     onChange={(e) => setFormData({ ...formData, industry: e.target.value })}
-                    className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#1E5EFF] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
+                    className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#FE5905] focus:outline-none focus:ring-2 focus:ring-orange-100 bg-white"
                   >
                     <option>Candles &amp; Fragrances</option>
                     <option>Glass &amp; Bottles</option>
@@ -217,14 +217,14 @@ export function ContactSection() {
                     placeholder="e.g. Surat, Gujarat"
                     value={formData.city}
                     onChange={(e) => setFormData({ ...formData, city: e.target.value })}
-                    className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#1E5EFF] focus:outline-none focus:ring-2 focus:ring-blue-100"
+                    className="w-full rounded-xl border border-slate-200 px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 focus:border-[#FE5905] focus:outline-none focus:ring-2 focus:ring-orange-100"
                   />
                 </div>
               </div>
 
               <button
                 type="submit"
-                className="mt-2 w-full flex items-center justify-center gap-2 rounded-xl bg-[#1E5EFF] px-6 py-3.5 text-xs sm:text-sm font-bold text-white shadow-lg shadow-blue-500/25 transition-all hover:bg-blue-600 active:scale-95 cursor-pointer"
+                className="mt-2 w-full flex items-center justify-center gap-2 rounded-xl bg-[#FE5905] px-6 py-3.5 text-xs sm:text-sm font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:bg-orange-600 active:scale-95 cursor-pointer"
               >
                 <Send className="h-4 w-4" />
                 <span>Submit &amp; Open WhatsApp Audit</span>

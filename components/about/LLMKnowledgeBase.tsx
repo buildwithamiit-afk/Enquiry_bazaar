@@ -45,12 +45,12 @@ export function LLMKnowledgeBase() {
         
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-2xs">
-            <Sparkles className="h-3.5 w-3.5 text-[#1E5EFF]" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-2xs">
+            <Sparkles className="h-3.5 w-3.5 text-[#FE5905]" />
             <span>KEY FACTS &amp; OVERVIEW</span>
           </div>
 
-          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.2rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.2rem] leading-tight ${montserrat.className}`}>
             Core Business Facts &amp; Direct Answers
           </h2>
 
@@ -64,10 +64,10 @@ export function LLMKnowledgeBase() {
           {llmQuestions.map((item, idx) => (
             <article
               key={idx}
-              className="rounded-2xl border-2 border-slate-200 bg-white p-5 sm:p-6 shadow-xs transition hover:border-blue-300"
+              className="rounded-2xl border-2 border-slate-200 bg-white p-5 sm:p-6 shadow-xs transition hover:border-orange-300"
             >
-              <h3 className={`text-base sm:text-[17px] font-bold text-[#0B1E3D] leading-snug flex items-start gap-2.5 ${montserrat.className}`}>
-                <span className="text-[#1E5EFF] shrink-0 font-extrabold">Q:</span>
+              <h3 className={`text-base sm:text-[17px] font-bold text-[#001A55] leading-snug flex items-start gap-2.5 ${montserrat.className}`}>
+                <span className="text-[#FE5905] shrink-0 font-extrabold">Q:</span>
                 <span>{item.q}</span>
               </h3>
 

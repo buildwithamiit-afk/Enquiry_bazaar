@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Montserrat, Inter } from "next/font/google";
 import { footerPages, footerSections, whatsappCta } from "./content";
 import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
@@ -20,7 +21,7 @@ const industriesList = [
 
 export function Footer() {
   return (
-    <footer className={`border-t border-slate-200 bg-[#0B1E3D] text-slate-400 ${inter.className}`}>
+    <footer className={`border-t border-slate-200 bg-[#001A55] text-slate-400 ${inter.className}`}>
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-[1.3fr_0.8fr_0.9fr_1fr]">
@@ -28,12 +29,13 @@ export function Footer() {
           {/* Brand & Helpline Col */}
           <div className="flex flex-col items-start">
             <Link href="/" className="flex items-center gap-2.5">
-              <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-[#1E5EFF] to-blue-700 text-sm font-extrabold tracking-wider text-white shadow-md">
-                EB
-              </div>
-              <span className={`text-lg font-extrabold tracking-tight text-white ${montserrat.className}`}>
-                Enquiry<span className="text-[#1E5EFF]">Bazaar</span>
-              </span>
+              <Image
+                src="/images/logo/Enquiry_main_logo.png"
+                alt="EnquiryBazaar Logo"
+                width={220}
+                height={62}
+                className="h-12 w-auto sm:h-16 invert brightness-0"
+              />
             </Link>
 
             <p className="mt-3 text-xs sm:text-[13px] text-slate-300 leading-relaxed max-w-sm">
@@ -51,7 +53,7 @@ export function Footer() {
                 <span>WhatsApp: +91 96967 17305</span>
               </a>
               <span className="text-[11.5px] text-slate-400">
-                📞 Direct B2B Helpline: <a href="tel:+919696717305" className="text-blue-300 font-semibold hover:underline">+91 96967 17305</a>
+                📞 Direct B2B Helpline: <a href="tel:+919696717305" className="text-orange-300 font-semibold hover:underline">+91 96967 17305</a>
               </span>
             </div>
           </div>

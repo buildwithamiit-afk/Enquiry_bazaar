@@ -27,7 +27,7 @@ const iconMap: Record<TouchpointKey, React.ComponentType<{ className?: string }>
 };
 
 const toneClasses: Record<TouchpointTone, string> = {
-  blue: "border-blue-200 bg-blue-50/90 text-brand-ink",
+  blue: "border-orange-200 bg-orange-50/90 text-brand-ink",
   green: "border-emerald-200 bg-emerald-50/90 text-brand-ink",
   slate: "border-slate-200 bg-white/92 text-brand-ink",
 };

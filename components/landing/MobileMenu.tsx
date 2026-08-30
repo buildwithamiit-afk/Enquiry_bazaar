@@ -30,7 +30,7 @@ export function MobileMenu({ open, onNavigate }: MobileMenuProps) {
                   <Link
                     href={item.href}
                     onClick={onNavigate}
-                    className="block rounded-xl px-3.5 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-50 hover:text-[#1E5EFF]"
+                    className="block rounded-xl px-3.5 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-50 hover:text-[#FE5905]"
                   >
                     {item.label}
                   </Link>

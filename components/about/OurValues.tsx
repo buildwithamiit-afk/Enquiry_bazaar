@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const values = [
   {
-    icon: <Scale className="h-5 w-5 text-[#1E5EFF]" />,
+    icon: <Scale className="h-5 w-5 text-[#FE5905]" />,
     title: "Manufacturer-First Margins",
     description:
       "We measure our success not by generic clicks or impressions, but by the net profit margin and exclusive bulk order volume our clients generate.",
@@ -19,7 +19,7 @@ const values = [
       "You own 100% of your domain, Google Business Profile, and buyer inquiries. No hostage situations, no deceptive contracts.",
   },
   {
-    icon: <Target className="h-5 w-5 text-indigo-600" />,
+    icon: <Target className="h-5 w-5 text-orange-600" />,
     title: "Relentless B2B Filtering",
     description:
       "We ruthlessly eliminate retail consumers, bargain hunters, and price-checkers so your sales team speaks only to serious wholesale buyers.",
@@ -39,12 +39,12 @@ export function OurValues() {
         
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-2xs">
-            <Award className="h-3.5 w-3.5 text-[#1E5EFF]" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-2xs">
+            <Award className="h-3.5 w-3.5 text-[#FE5905]" />
             <span>WHAT WE STAND FOR</span>
           </div>
 
-          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.25rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.25rem] leading-tight ${montserrat.className}`}>
             Our Core Values
           </h2>
 
@@ -65,7 +65,7 @@ export function OurValues() {
                   {val.icon}
                 </div>
                 <div>
-                  <h3 className={`text-base sm:text-[17px] font-bold text-[#0B1E3D] ${montserrat.className}`}>
+                  <h3 className={`text-base sm:text-[17px] font-bold text-[#001A55] ${montserrat.className}`}>
                     {val.title}
                   </h3>
                   <p className="mt-1.5 text-xs sm:text-[13px] text-slate-600 leading-relaxed font-normal">

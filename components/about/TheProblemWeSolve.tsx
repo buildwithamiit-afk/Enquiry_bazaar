@@ -28,7 +28,7 @@ const challenges = [
       "Running a factory takes full-time effort. Manufacturers do not have the time to learn SEO, manage Google Ads, or fix website errors. Traditional agencies charge heavy fees without understanding B2B industrial products.",
   },
   {
-    icon: <DollarSign className="h-5 w-5 text-indigo-600" />,
+    icon: <DollarSign className="h-5 w-5 text-orange-600" />,
     title: "You Pay Every Year, But Own Nothing",
     source: "Entrepreneur India Report",
     description:
@@ -48,7 +48,7 @@ export function TheProblemWeSolve() {
             <span>THE PROBLEM WE ARE SOLVING</span>
           </div>
 
-          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.2rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.2rem] leading-tight ${montserrat.className}`}>
             Why Most Factory Owners Struggle for Direct Bulk Inquiries
           </h2>
 
@@ -62,7 +62,7 @@ export function TheProblemWeSolve() {
           {challenges.map((item) => (
             <div
               key={item.title}
-              className="rounded-2xl border-2 border-slate-200 bg-white p-5 sm:p-6 shadow-xs transition hover:border-blue-300 hover:shadow-md flex flex-col justify-between"
+              className="rounded-2xl border-2 border-slate-200 bg-white p-5 sm:p-6 shadow-xs transition hover:border-orange-300 hover:shadow-md flex flex-col justify-between"
             >
               <div>
                 <div className="flex items-center justify-between gap-3">

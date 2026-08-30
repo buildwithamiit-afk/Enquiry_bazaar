@@ -76,16 +76,16 @@ export default function B2BGoogleAdsAgencyNaviMumbai() {
           <div className="mx-auto w-full max-w-7xl px-5 pb-12 pt-8 sm:px-8 sm:pt-10 lg:px-10 lg:pb-16 lg:pt-12 xl:pt-14">
             <div className="grid items-center gap-8 lg:grid-cols-[1fr_1.15fr] xl:grid-cols-[1fr_1.25fr] lg:gap-10 xl:gap-14">
               <div className="relative z-10 flex flex-col items-center text-center lg:items-start lg:text-left">
-                <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50/80 px-3.5 py-1 text-[11.5px] font-bold text-[#1E5EFF] shadow-2xs">
+                <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-orange-100 bg-orange-50/80 px-3.5 py-1 text-[11.5px] font-bold text-[#FE5905] shadow-2xs">
                   <span className="relative flex h-2 w-2">
-                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#1E5EFF] opacity-75"></span>
-                    <span className="relative inline-flex h-2 w-2 rounded-full bg-[#1E5EFF]"></span>
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#FE5905] opacity-75"></span>
+                    <span className="relative inline-flex h-2 w-2 rounded-full bg-[#FE5905]"></span>
                   </span>
                   <span>#1 Rated B2B Ads Expert</span>
                 </div>
                 
-                <h1 className={`text-[2rem] font-extrabold leading-[1.15] tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.65rem] xl:text-[2.85rem] ${montserrat.className}`}>
-                  Losing Ad Budget on Fake Clicks? Hire Navi Mumbai's Top <span className="text-[#1E5EFF]">B2B Google Ads</span> Agency.
+                <h1 className={`text-[2rem] font-extrabold leading-[1.15] tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.65rem] xl:text-[2.85rem] ${montserrat.className}`}>
+                  Losing Ad Budget on Fake Clicks? Hire Navi Mumbai's Top <span className="text-[#FE5905]">B2B Google Ads</span> Agency.
                 </h1>
 
                 <p className="mt-3 max-w-xl text-[14.5px] font-normal leading-relaxed text-slate-600 sm:text-[16px] xl:max-w-2xl">
@@ -114,21 +114,21 @@ export default function B2BGoogleAdsAgencyNaviMumbai() {
         {/* How We Work Section */}
         <section className={`py-16 px-5 sm:px-8 lg:px-10 bg-white ${inter.className}`}>
           <div className="mx-auto max-w-5xl text-center">
-            <h2 className={`text-2xl sm:text-3xl font-bold text-[#0B1E3D] ${montserrat.className}`}>How We <span className="text-[#1E5EFF]">Work</span></h2>
+            <h2 className={`text-2xl sm:text-3xl font-bold text-[#001A55] ${montserrat.className}`}>How We <span className="text-[#FE5905]">Work</span></h2>
             <p className="mt-4 text-slate-600 max-w-2xl mx-auto">A very simple process. No long promises, just a direct focus on getting you real buyers.</p>
             <div className="mt-12 grid gap-8 sm:grid-cols-3 text-left">
               <div className="relative p-6 rounded-2xl border border-slate-100 shadow-sm bg-slate-50">
-                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#1E5EFF] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">1</div>
+                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#FE5905] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">1</div>
                 <h3 className="font-bold text-lg text-slate-800 mt-2">Complete Digital Setup</h3>
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed">We build an end-to-end Google Ads growth system. This includes a high-converting landing page and your entire leads pipeline.</p>
               </div>
               <div className="relative p-6 rounded-2xl border border-slate-100 shadow-sm bg-slate-50">
-                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#1E5EFF] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">2</div>
+                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#FE5905] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">2</div>
                 <h3 className="font-bold text-lg text-slate-800 mt-2">B2B Targeted Ads</h3>
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed">We deploy Google Ads with strict negative keywords to block single-piece retail shoppers, targeting only procurement managers.</p>
               </div>
               <div className="relative p-6 rounded-2xl border border-slate-100 shadow-sm bg-slate-50">
-                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#1E5EFF] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">3</div>
+                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#FE5905] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">3</div>
                 <h3 className="font-bold text-lg text-slate-800 mt-2">Direct Leads on WhatsApp</h3>
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed">Wholesalers see your ads and send enquiries directly to your WhatsApp. No shared portal competition.</p>
               </div>
@@ -139,7 +139,7 @@ export default function B2BGoogleAdsAgencyNaviMumbai() {
         {/* Why Choose Us */}
         <section className={`py-16 px-5 sm:px-8 lg:px-10 bg-slate-50 ${inter.className}`}>
           <div className="mx-auto max-w-4xl text-center">
-            <h2 className={`text-2xl sm:text-3xl font-bold text-[#0B1E3D] ${montserrat.className}`}>Why Choose <span className="text-[#1E5EFF]">EnquiryBazaar?</span></h2>
+            <h2 className={`text-2xl sm:text-3xl font-bold text-[#001A55] ${montserrat.className}`}>Why Choose <span className="text-[#FE5905]">EnquiryBazaar?</span></h2>
             <p className="mt-4 text-slate-600 max-w-2xl mx-auto">Because running B2B ads requires a completely different strategy than standard eCommerce.</p>
             <div className="mt-10 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden text-left">
               <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-100">
@@ -151,8 +151,8 @@ export default function B2BGoogleAdsAgencyNaviMumbai() {
                     <li>❌ They don't understand factory MOQs or industrial procurement.</li>
                   </ul>
                 </div>
-                <div className="p-8 bg-blue-50/30">
-                  <h3 className="text-lg font-bold text-[#1E5EFF] flex items-center gap-2 mb-4">EnquiryBazaar</h3>
+                <div className="p-8 bg-orange-50/30">
+                  <h3 className="text-lg font-bold text-[#FE5905] flex items-center gap-2 mb-4">EnquiryBazaar</h3>
                   <ul className="space-y-3 text-sm text-slate-700 font-medium">
                     <li>✅ We use advanced negative keyword shields to block retail traffic.</li>
                     <li>✅ Complete Leads Pipeline so no deal is missed.</li>

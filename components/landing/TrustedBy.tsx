@@ -83,9 +83,9 @@ const brandLogos: BrandLogo[] = [
     industry: "Tours & Travel",
     logo: (
       <div className="flex h-12 items-center gap-1.5 px-3 py-1 bg-white">
-        <span className="text-[17px] font-black text-[#1E3A8A] tracking-tight">fren</span>
-        <span className="text-[17px] font-black bg-gradient-to-r from-blue-600 to-teal-400 bg-clip-text text-transparent">zi</span>
-        <div className="flex h-3.5 w-3.5 items-center justify-center rounded-full bg-teal-400">
+        <span className="text-[17px] font-black text-[#001A55] tracking-tight">fren</span>
+        <span className="text-[17px] font-black bg-gradient-to-r from-orange-600 to-orange-400 bg-clip-text text-transparent">zi</span>
+        <div className="flex h-3.5 w-3.5 items-center justify-center rounded-full bg-orange-400">
           <svg className="h-2 w-2 text-white" viewBox="0 0 24 24" fill="currentColor">
             <polygon points="5 3 19 12 5 21 5 3" />
           </svg>
@@ -104,8 +104,8 @@ const brandLogos: BrandLogo[] = [
             <span className="text-[13px] font-black tracking-[0.25em] text-[#FB7185]">D</span>
             <span className="text-[13px] font-black tracking-[0.25em] text-[#FBBF24]">E</span>
             <span className="text-[13px] font-black tracking-[0.25em] text-[#34D399]">S</span>
-            <span className="text-[13px] font-black tracking-[0.25em] text-[#60A5FA]">I</span>
-            <span className="text-[13px] font-black tracking-[0.25em] text-[#A78BFA]">R</span>
+            <span className="text-[13px] font-black tracking-[0.25em] text-[#FF9457]">I</span>
+            <span className="text-[13px] font-black tracking-[0.25em] text-[#FE5905]">R</span>
             <span className="text-[13px] font-black tracking-[0.25em] text-[#F472B6]">E</span>
           </div>
           <span className="block text-[7.5px] tracking-[0.35em] text-slate-300 uppercase">s a l o n</span>
@@ -118,10 +118,10 @@ const brandLogos: BrandLogo[] = [
     name: "PhysioEdge",
     industry: "Healthcare & Physiotherapy",
     logo: (
-      <div className="flex h-12 items-center gap-2 rounded-lg bg-teal-50/80 border border-teal-200/80 px-3.5 py-1.5 shadow-xs">
+      <div className="flex h-12 items-center gap-2 rounded-lg bg-orange-50/80 border border-orange-200/80 px-3.5 py-1.5 shadow-xs">
         <div className="text-left">
           <span className="block text-[8px] font-bold text-emerald-600">Dr. Neha&apos;s</span>
-          <span className="block text-[13px] font-extrabold text-[#0369A1] tracking-tight">PHYSIOEDGE</span>
+          <span className="block text-[13px] font-extrabold text-[#C2410C] tracking-tight">PHYSIOEDGE</span>
           <span className="block text-[6.5px] font-medium text-slate-500">Physiotherapy &amp; Wellness Centre</span>
         </div>
       </div>
@@ -179,13 +179,13 @@ const brandLogos: BrandLogo[] = [
     name: "Niwas Living",
     industry: "Home Decor & Crafts",
     logo: (
-      <div className="flex h-12 items-center gap-2 rounded-full border border-teal-200 bg-teal-50/60 px-3.5 py-1">
-        <div className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-700 text-white text-[10px] font-bold">
+      <div className="flex h-12 items-center gap-2 rounded-full border border-orange-200 bg-orange-50/60 px-3.5 py-1">
+        <div className="flex h-6 w-6 items-center justify-center rounded-full bg-orange-700 text-white text-[10px] font-bold">
           N
         </div>
         <div className="text-left">
-          <span className="block text-[12px] font-bold text-teal-950">NIWAS</span>
-          <span className="block text-[7px] font-medium text-teal-700 tracking-wider">CRAFT &amp; LIVING</span>
+          <span className="block text-[12px] font-bold text-orange-950">NIWAS</span>
+          <span className="block text-[7px] font-medium text-orange-700 tracking-wider">CRAFT &amp; LIVING</span>
         </div>
       </div>
     ),
@@ -196,7 +196,7 @@ const brandLogos: BrandLogo[] = [
     industry: "Packaging & Corrugation",
     logo: (
       <div className="flex h-12 items-center gap-2 rounded-lg bg-slate-900 px-3.5 py-1.5 text-white shadow-xs">
-        <div className="flex h-6 w-6 items-center justify-center rounded bg-blue-500 font-black text-white text-[11px]">
+        <div className="flex h-6 w-6 items-center justify-center rounded bg-orange-500 font-black text-white text-[11px]">
           ▲
         </div>
         <div className="text-left leading-tight">
@@ -211,16 +211,16 @@ const brandLogos: BrandLogo[] = [
     name: "Vardhman Industries",
     industry: "Machinery & Valves",
     logo: (
-      <div className="flex h-12 items-center gap-2 rounded-lg border border-blue-200 bg-blue-50/80 px-3 py-1 text-slate-900 shadow-2xs">
-        <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#1E5EFF] text-white">
+      <div className="flex h-12 items-center gap-2 rounded-lg border border-orange-200 bg-orange-50/80 px-3 py-1 text-slate-900 shadow-2xs">
+        <div className="flex h-6 w-6 items-center justify-center rounded-full bg-[#FE5905] text-white">
           <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
             <circle cx="12" cy="12" r="3" />
             <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
           </svg>
         </div>
         <div className="text-left leading-none">
-          <span className="block text-[12px] font-extrabold text-[#0B1E3D]">VARDHMAN</span>
-          <span className="block text-[7px] font-bold text-blue-600 tracking-wider uppercase mt-0.5">VALVES &amp; PIPES</span>
+          <span className="block text-[12px] font-extrabold text-[#001A55]">VARDHMAN</span>
+          <span className="block text-[7px] font-bold text-orange-600 tracking-wider uppercase mt-0.5">VALVES &amp; PIPES</span>
         </div>
       </div>
     ),
@@ -239,7 +239,7 @@ export function TrustedBy() {
         
         {/* Section Heading */}
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className={`text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.15rem] ${montserrat.className}`}>
+          <h2 className={`text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.15rem] ${montserrat.className}`}>
             Trusted by Business Owners{" "}
             <span className="block sm:inline text-slate-800">from Various Industries</span>
           </h2>
@@ -277,7 +277,7 @@ export function TrustedBy() {
         <div className="mt-3.5 flex justify-center">
           <a
             href="#hero"
-            className="inline-flex items-center gap-2 rounded-xl bg-[#2563EB] px-6 py-2.5 text-xs sm:text-sm font-bold text-white shadow-md shadow-blue-500/25 transition-all hover:bg-blue-700 active:scale-95"
+            className="inline-flex items-center gap-2 rounded-xl bg-[#FE5905] px-6 py-2.5 text-xs sm:text-sm font-bold text-white shadow-md shadow-orange-500/25 transition-all hover:bg-orange-700 active:scale-95"
           >
             <span>Book Free Demo</span>
             <ArrowRight className="h-4 w-4" />

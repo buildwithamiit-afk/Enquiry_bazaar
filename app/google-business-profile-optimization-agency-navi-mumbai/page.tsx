@@ -144,14 +144,14 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
               <div className="relative z-10 flex flex-col items-center text-center lg:items-start lg:text-left">
                 
                 {/* Pill Tag */}
-                <div className="mb-3.5 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50/80 px-3.5 py-1 text-[11.5px] font-bold text-[#1E5EFF] shadow-2xs">
+                <div className="mb-3.5 inline-flex items-center gap-2 rounded-full border border-orange-100 bg-orange-50/80 px-3.5 py-1 text-[11.5px] font-bold text-[#FE5905] shadow-2xs">
                   <MapPin className="h-3.5 w-3.5" />
                   <span>Navi Mumbai's #1 Google Maps Growth Partner</span>
                 </div>
 
                 {/* H1 Heading (Fear/Dream -> Authority -> Urgency) */}
-                <h1 className={`text-[2rem] font-extrabold leading-[1.15] tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.65rem] xl:text-[2.85rem] ${montserrat.className}`}>
-                  Invisible on Google Maps? Dominate the <span className="text-[#1E5EFF]">Local 3-Pack</span> in Navi Mumbai.
+                <h1 className={`text-[2rem] font-extrabold leading-[1.15] tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.65rem] xl:text-[2.85rem] ${montserrat.className}`}>
+                  Invisible on Google Maps? Dominate the <span className="text-[#FE5905]">Local 3-Pack</span> in Navi Mumbai.
                 </h1>
 
                 {/* Subtext */}
@@ -186,7 +186,7 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
 
                   <a
                     href="#qr-generator"
-                    className="group flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-[#1E5EFF] px-6 py-3.5 text-sm font-bold text-white shadow-md shadow-blue-500/20 transition-all hover:bg-blue-600 active:scale-95"
+                    className="group flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-[#FE5905] px-6 py-3.5 text-sm font-bold text-white shadow-md shadow-orange-500/20 transition-all hover:bg-orange-600 active:scale-95"
                   >
                     <span>Free Google Review QR Tool</span>
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
@@ -202,7 +202,7 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
 
               {/* Right Column: Hero Graphic Visual */}
               <div className="relative flex w-full items-center justify-center lg:justify-end">
-                <div className="absolute inset-0 m-auto h-[90%] w-[90%] rounded-full bg-blue-500/10 blur-[75px]"></div>
+                <div className="absolute inset-0 m-auto h-[90%] w-[90%] rounded-full bg-orange-500/10 blur-[75px]"></div>
                 <Image
                   src="/hero.png"
                   alt="Google Business Profile Optimization Navi Mumbai"
@@ -227,13 +227,13 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
         {/* 5 Core Pillars of Google Maps Ranking */}
         <section className={`py-18 px-5 sm:px-8 lg:px-10 bg-white ${inter.className}`}>
           <div className="mx-auto max-w-6xl text-center">
-            <div className="inline-flex items-center gap-1.5 rounded-full border border-blue-100 bg-blue-50 px-3.5 py-1 text-xs font-bold text-[#1E5EFF]">
+            <div className="inline-flex items-center gap-1.5 rounded-full border border-orange-100 bg-orange-50 px-3.5 py-1 text-xs font-bold text-[#FE5905]">
               <TrendingUp className="h-3.5 w-3.5" />
               <span>Proven Local Algorithm Ranking Engine</span>
             </div>
             
-            <h2 className={`mt-3 text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#0B1E3D] ${montserrat.className}`}>
-              How We Rank Your Factory <span className="text-[#1E5EFF]">#1 on Google Maps</span>
+            <h2 className={`mt-3 text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#001A55] ${montserrat.className}`}>
+              How We Rank Your Factory <span className="text-[#FE5905]">#1 on Google Maps</span>
             </h2>
             <p className="mt-3.5 max-w-2xl mx-auto text-slate-600 text-sm sm:text-base">
               Google Maps does not rank businesses by luck. Our 5-pillar optimization protocol directly aligns with Google's local ranking algorithms (Relevance, Proximity, and Prominence).
@@ -243,7 +243,7 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
               
               {/* Pillar 1 */}
               <div className="rounded-2xl border border-slate-200/80 bg-slate-50/50 p-6 shadow-xs transition-all hover:bg-white hover:shadow-md">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-100 text-[#1E5EFF]">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-orange-100 text-[#FE5905]">
                   <Layers className="h-5 w-5" />
                 </div>
                 <h3 className="mt-4 text-lg font-bold text-slate-900">1. Category & Keyword Architecture</h3>
@@ -303,8 +303,8 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
         {/* How We Work Section (Simple 3 Steps) */}
         <section className={`py-16 px-5 sm:px-8 lg:px-10 bg-slate-50 ${inter.className}`}>
           <div className="mx-auto max-w-5xl text-center">
-            <h2 className={`text-2xl sm:text-3xl font-bold text-[#0B1E3D] ${montserrat.className}`}>
-              How We <span className="text-[#1E5EFF]">Work</span>
+            <h2 className={`text-2xl sm:text-3xl font-bold text-[#001A55] ${montserrat.className}`}>
+              How We <span className="text-[#FE5905]">Work</span>
             </h2>
             <p className="mt-4 text-slate-600 max-w-2xl mx-auto text-sm sm:text-base">
               A straightforward process. Zero guesswork, just direct map rank improvement.
@@ -313,7 +313,7 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
             <div className="mt-12 grid gap-8 sm:grid-cols-3 text-left">
               {/* Step 1 */}
               <div className="relative p-6 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow">
-                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#1E5EFF] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">1</div>
+                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#FE5905] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">1</div>
                 <h3 className="font-bold text-lg text-slate-800 mt-2">100-Point Audit & Fix</h3>
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed">
                   We audit your current Google Business Profile, fix broken categories, optimize product catalogs, and eliminate policy violations that prevent you from ranking.
@@ -322,7 +322,7 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
               
               {/* Step 2 */}
               <div className="relative p-6 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow">
-                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#1E5EFF] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">2</div>
+                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#FE5905] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">2</div>
                 <h3 className="font-bold text-lg text-slate-800 mt-2">Geo-Tagging & Citations</h3>
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed">
                   Our team uploads GPS geo-tagged factory media, builds authoritative Indian local citations, and deploys your custom Google Review QR standee.
@@ -331,7 +331,7 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
 
               {/* Step 3 */}
               <div className="relative p-6 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition-shadow">
-                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#1E5EFF] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">3</div>
+                <div className="absolute -top-5 -left-5 h-10 w-10 bg-[#FE5905] text-white flex items-center justify-center rounded-full font-bold text-lg shadow-lg">3</div>
                 <h3 className="font-bold text-lg text-slate-800 mt-2">Rank #1 & Get Calls</h3>
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed">
                   Your business moves into the coveted Google Maps Local 3-Pack. Incoming phone calls and WhatsApp quotes start arriving directly on your phone with zero commission.
@@ -344,8 +344,8 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
         {/* Why Choose Us vs Generic Agencies */}
         <section className={`py-16 px-5 sm:px-8 lg:px-10 bg-white ${inter.className}`}>
           <div className="mx-auto max-w-4xl text-center">
-            <h2 className={`text-2xl sm:text-3xl font-bold text-[#0B1E3D] ${montserrat.className}`}>
-              Why Choose <span className="text-[#1E5EFF]">EnquiryBazaar?</span>
+            <h2 className={`text-2xl sm:text-3xl font-bold text-[#001A55] ${montserrat.className}`}>
+              Why Choose <span className="text-[#FE5905]">EnquiryBazaar?</span>
             </h2>
             <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
               Because generic SEO agencies don't understand B2B manufacturing proximity signals.
@@ -367,9 +367,9 @@ export default function GoogleBusinessProfileAgencyNaviMumbai() {
                   </ul>
                 </div>
 
-                <div className="p-8 bg-blue-50/30">
-                  <h3 className="text-lg font-bold text-[#1E5EFF] flex items-center gap-2 mb-4">
-                    <span className="bg-blue-100 p-1 rounded-full"><svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg></span>
+                <div className="p-8 bg-orange-50/30">
+                  <h3 className="text-lg font-bold text-[#FE5905] flex items-center gap-2 mb-4">
+                    <span className="bg-orange-100 p-1 rounded-full"><svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg></span>
                     EnquiryBazaar GMB Engine
                   </h3>
                   <ul className="space-y-3 text-sm text-slate-700 font-medium">

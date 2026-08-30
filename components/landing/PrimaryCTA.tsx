@@ -22,7 +22,7 @@ export function PrimaryCTA({
     <Link
       href={consultationCta.href}
       onClick={onClick}
-      className={`group inline-flex items-center justify-center gap-2 rounded-xl bg-[#1E5EFF] font-bold text-white shadow-md shadow-blue-500/20 transition-all duration-200 hover:bg-blue-600 hover:shadow-lg active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1E5EFF] focus-visible:ring-offset-2 ${sizeClasses} ${className}`}
+      className={`group inline-flex items-center justify-center gap-2 rounded-xl bg-[#FE5905] font-bold text-white shadow-md shadow-orange-500/20 transition-all duration-200 hover:bg-orange-600 hover:shadow-lg active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#FE5905] focus-visible:ring-offset-2 ${sizeClasses} ${className}`}
       data-cta="book-free-demo"
     >
       <span>{consultationCta.label}</span>

@@ -22,9 +22,9 @@ interface BottleneckCard {
 const bottleneckCards: BottleneckCard[] = [
   {
     id: "indiamart",
-    squareBg: "bg-blue-50/70",
-    squareBorder: "border-blue-100/90",
-    iconBg: "bg-gradient-to-br from-blue-500 to-blue-700 text-white shadow-md shadow-blue-500/25",
+    squareBg: "bg-orange-50/70",
+    squareBorder: "border-orange-100/90",
+    iconBg: "bg-gradient-to-br from-orange-500 to-orange-700 text-white shadow-md shadow-orange-500/25",
     platformName: "IndiaMART",
     platformCategory: "& TradeIndia",
     mainHeading: "1 Enquiry Sold to 8+ Competitors at the Same Time",
@@ -48,7 +48,7 @@ const bottleneckCards: BottleneckCard[] = [
     id: "portals",
     squareBg: "bg-purple-50/70",
     squareBorder: "border-purple-100/90",
-    iconBg: "bg-gradient-to-br from-purple-500 to-indigo-700 text-white shadow-md shadow-purple-500/25",
+    iconBg: "bg-gradient-to-br from-purple-500 to-orange-700 text-white shadow-md shadow-purple-500/25",
     platformName: "B2B Portals",
     platformCategory: "& Online Directories",
     mainHeading: "Your Real Factory Looks Just Like a Small Middleman",
@@ -60,7 +60,7 @@ const bottleneckCards: BottleneckCard[] = [
     id: "referrals",
     squareBg: "bg-emerald-50/70",
     squareBorder: "border-emerald-100/90",
-    iconBg: "bg-gradient-to-br from-emerald-500 to-teal-700 text-white shadow-md shadow-emerald-500/25",
+    iconBg: "bg-gradient-to-br from-emerald-500 to-orange-700 text-white shadow-md shadow-emerald-500/25",
     platformName: "Referrals",
     platformCategory: "& Offline Contacts",
     mainHeading: "Word-of-Mouth is Good, But No Guaranteed Flow Every Month",
@@ -87,9 +87,9 @@ export function DependencyProblem() {
             THE REAL PROBLEM WITH PORTALS
           </div>
           
-          <h2 className={`mt-1.5 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.2rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`mt-1.5 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.2rem] leading-tight ${montserrat.className}`}>
             Good Factory. Quality Products.{" "}
-            <span className="text-[#1E5EFF]">Still Struggling for Direct Bulk Buyers?</span>
+            <span className="text-[#FE5905]">Still Struggling for Direct Bulk Buyers?</span>
           </h2>
           
           <p className="mt-2 text-xs sm:text-[14.5px] text-slate-600 font-normal leading-relaxed">
@@ -104,7 +104,7 @@ export function DependencyProblem() {
             return (
               <div
                 key={card.id}
-                className="group flex flex-col sm:flex-row items-stretch overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-2xs transition-all duration-200 hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-xs"
+                className="group flex flex-col sm:flex-row items-stretch overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-2xs transition-all duration-200 hover:-translate-y-0.5 hover:border-orange-300 hover:shadow-xs"
               >
                 {/* 20% Square Block Container */}
                 <div className={`flex w-full sm:w-[125px] lg:w-[130px] shrink-0 flex-row sm:flex-col items-center justify-between sm:justify-center gap-2 border-b sm:border-b-0 sm:border-r ${card.squareBorder} ${card.squareBg} p-3.5 sm:p-4 text-center`}>
@@ -115,7 +115,7 @@ export function DependencyProblem() {
                   </div>
                   
                   <div className="text-right sm:text-center">
-                    <span className="block text-[12.5px] sm:text-[13px] font-bold text-[#0B1E3D] leading-tight">
+                    <span className="block text-[12.5px] sm:text-[13px] font-bold text-[#001A55] leading-tight">
                       {card.platformName}
                     </span>
                     <span className="block text-[10.5px] font-medium text-slate-500">
@@ -128,7 +128,7 @@ export function DependencyProblem() {
                 <div className="flex flex-1 flex-col justify-between p-4 sm:p-5">
                   <div>
                     {/* Main Heading */}
-                    <h3 className={`text-[15.5px] sm:text-[16.5px] font-bold leading-snug text-[#0B1E3D] group-hover:text-[#1E5EFF] transition-colors ${jakarta.className}`}>
+                    <h3 className={`text-[15.5px] sm:text-[16.5px] font-bold leading-snug text-[#001A55] group-hover:text-[#FE5905] transition-colors ${jakarta.className}`}>
                       {card.mainHeading}
                     </h3>
 

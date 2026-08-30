@@ -50,7 +50,7 @@ export type TouchpointKey =
   | "profile"
   | "catalogue";
 
-export type TouchpointTone = "blue" | "green" | "slate";
+export type TouchpointTone = "orange" | "green" | "slate";
 
 export type Touchpoint = {
   key: TouchpointKey;
@@ -61,11 +61,11 @@ export type Touchpoint = {
 };
 
 export const ecosystemTouchpoints: Touchpoint[] = [
-  { key: "website", label: "Website", x: 18, y: 18, tone: "blue" },
+  { key: "website", label: "Website", x: 18, y: 18, tone: "orange" },
   { key: "google", label: "Google", x: 50, y: 10, tone: "green" },
   { key: "search", label: "Search", x: 82, y: 18, tone: "slate" },
   { key: "enquiries", label: "Buyer Enquiries", x: 16, y: 50, tone: "green" },
-  { key: "whatsapp", label: "WhatsApp", x: 84, y: 50, tone: "blue" },
+  { key: "whatsapp", label: "WhatsApp", x: 84, y: 50, tone: "orange" },
   { key: "profile", label: "Business Profile", x: 25, y: 82, tone: "slate" },
-  { key: "catalogue", label: "Digital Catalogue", x: 75, y: 82, tone: "blue" },
+  { key: "catalogue", label: "Digital Catalogue", x: 75, y: 82, tone: "orange" },
 ];

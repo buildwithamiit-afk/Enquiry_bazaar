@@ -19,16 +19,16 @@ export function FinalCTA() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Full-Width Panoramic Slim Master CTA Card */}
-        <div className="relative overflow-hidden rounded-[24px] sm:rounded-[30px] bg-gradient-to-r from-[#0B1E3D] via-[#102B52] to-[#0A1A33] px-6 py-6 sm:px-10 sm:py-7 lg:px-14 lg:py-7.5 text-center text-white shadow-xl shadow-blue-950/20">
+        <div className="relative overflow-hidden rounded-[24px] sm:rounded-[30px] bg-gradient-to-r from-[#001A55] via-[#001A55] to-[#000F2E] px-6 py-6 sm:px-10 sm:py-7 lg:px-14 lg:py-7.5 text-center text-white shadow-xl shadow-orange-950/20">
           
           {/* Subtle Ambient Backdrops */}
-          <div className="pointer-events-none absolute -left-16 -top-16 h-52 w-52 rounded-full bg-[#1E5EFF]/20 blur-2xl"></div>
-          <div className="pointer-events-none absolute -right-16 -bottom-16 h-52 w-52 rounded-full bg-cyan-400/15 blur-2xl"></div>
+          <div className="pointer-events-none absolute -left-16 -top-16 h-52 w-52 rounded-full bg-[#FE5905]/20 blur-2xl"></div>
+          <div className="pointer-events-none absolute -right-16 -bottom-16 h-52 w-52 rounded-full bg-orange-400/15 blur-2xl"></div>
 
           <div className="relative z-10 mx-auto max-w-4xl">
             
             {/* Live Indicator Pill */}
-            <div className="inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3 py-0.5 text-[11px] font-bold uppercase tracking-wider text-blue-200 backdrop-blur-md shadow-2xs">
+            <div className="inline-flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3 py-0.5 text-[11px] font-bold uppercase tracking-wider text-orange-200 backdrop-blur-md shadow-2xs">
               <span className="relative flex h-2 w-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
@@ -76,10 +76,10 @@ export function FinalCTA() {
 
               <a
                 href="#hero"
-                className="group flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-white px-5 py-2.5 sm:px-6 sm:py-3 text-xs sm:text-sm font-bold text-[#0B1E3D] shadow-sm transition-all hover:bg-slate-100 active:scale-95"
+                className="group flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-white px-5 py-2.5 sm:px-6 sm:py-3 text-xs sm:text-sm font-bold text-[#001A55] shadow-sm transition-all hover:bg-slate-100 active:scale-95"
               >
                 <span>Book Free Discovery Call</span>
-                <ArrowRight className="h-4 w-4 text-[#1E5EFF] transition-transform group-hover:translate-x-0.5" />
+                <ArrowRight className="h-4 w-4 text-[#FE5905] transition-transform group-hover:translate-x-0.5" />
               </a>
             </div>
 

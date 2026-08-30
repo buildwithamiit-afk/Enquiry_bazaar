@@ -59,19 +59,19 @@ const serviceCards: ServiceCardData[] = [
     leftHeadline: "When Bulk Buyers Search on Google, Your Factory Appears First",
     specialistImage: "/images/specialists/indian_male_seo.png",
     accentColor: {
-      badge: "bg-blue-50 text-blue-700 border-blue-200",
-      border: "border-blue-200 hover:border-blue-400",
-      iconBg: "bg-blue-50 text-blue-600 border-blue-100",
-      bannerBg: "bg-blue-50/80 border-blue-200 text-blue-950",
+      badge: "bg-orange-50 text-orange-700 border-orange-200",
+      border: "border-orange-200 hover:border-orange-400",
+      iconBg: "bg-orange-50 text-orange-600 border-orange-100",
+      bannerBg: "bg-orange-50/80 border-orange-200 text-orange-950",
     },
     points: [
       {
-        icon: <Search className="h-4 w-4 text-blue-600" />,
+        icon: <Search className="h-4 w-4 text-orange-600" />,
         title: "Top Google Ranking for Buying Keywords",
         description: "Optimized so when buyers type '[Your Product] manufacturer / wholesale supplier', your factory ranks at the very top.",
       },
       {
-        icon: <MapPin className="h-4 w-4 text-blue-600" />,
+        icon: <MapPin className="h-4 w-4 text-orange-600" />,
         title: "100% Verified Google Business Profile (GMB)",
         description: "Complete setup with factory location, manufacturing premises, opening hours, and direct call buttons.",
       },
@@ -83,7 +83,7 @@ const serviceCards: ServiceCardData[] = [
       {
         icon: <PhoneCall className="h-4 w-4 text-emerald-600" />,
         title: "Direct Phone Calls & WhatsApp Inquiries",
-        description: "Buyers click once and directly talk to your sales manager — zero middleman, zero platform cuts, 100% your lead.",
+        description: "Buyers click once and directly talk to your sales manager - zero middleman, zero platform cuts, 100% your lead.",
       },
     ],
     businessOutcome: "Expected Result: 20–45+ direct incoming calls & WhatsApp inquiries from verified buyers every month.",
@@ -114,12 +114,12 @@ const serviceCards: ServiceCardData[] = [
         description: "Strategic WhatsApp triggers allowing prospective buyers to request quotation sheets and rate cards in under 5 seconds.",
       },
       {
-        icon: <ShieldCheck className="h-4 w-4 text-indigo-600" />,
+        icon: <ShieldCheck className="h-4 w-4 text-orange-600" />,
         title: "Factory Infrastructure & Certifications",
         description: "Highlight your manufacturing plant, CNC machines, production capacity, ISO / CE certifications, and export quality standards.",
       },
       {
-        icon: <Smartphone className="h-4 w-4 text-blue-600" />,
+        icon: <Smartphone className="h-4 w-4 text-orange-600" />,
         title: "Fast Mobile Loading & 100% Data Ownership",
         description: "Loads in under 2 seconds on any mobile phone. You own 100% of the website, domain, and customer database forever.",
       },
@@ -135,14 +135,14 @@ const serviceCards: ServiceCardData[] = [
     leftHeadline: "Targeted Ads That Bring Only Serious Wholesale & Bulk Enquiries",
     specialistImage: "/images/specialists/indian_male_ads.png",
     accentColor: {
-      badge: "bg-indigo-50 text-indigo-700 border-indigo-200",
-      border: "border-indigo-200 hover:border-indigo-400",
-      iconBg: "bg-indigo-50 text-indigo-600 border-indigo-100",
-      bannerBg: "bg-indigo-50/80 border-indigo-200 text-indigo-950",
+      badge: "bg-orange-50 text-orange-700 border-orange-200",
+      border: "border-orange-200 hover:border-orange-400",
+      iconBg: "bg-orange-50 text-orange-600 border-orange-100",
+      bannerBg: "bg-orange-50/80 border-orange-200 text-orange-950",
     },
     points: [
       {
-        icon: <Target className="h-4 w-4 text-indigo-600" />,
+        icon: <Target className="h-4 w-4 text-orange-600" />,
         title: "High-Intent Keyword Targeting",
         description: "Ads show ONLY to users typing wholesale queries like 'bulk order', 'factory rate', 'OEM manufacturer', or 'direct supplier'.",
       },
@@ -152,7 +152,7 @@ const serviceCards: ServiceCardData[] = [
         description: "Negative keyword filtering prevents budget wastage on retail consumers, bargain hunters, or job seekers.",
       },
       {
-        icon: <Users className="h-4 w-4 text-blue-600" />,
+        icon: <Users className="h-4 w-4 text-orange-600" />,
         title: "Reach Business Owners on Meta & Instagram",
         description: "Show your factory capabilities directly in the feeds of shopkeepers, distributors, and procurement managers.",
       },
@@ -190,7 +190,7 @@ const serviceCards: ServiceCardData[] = [
         description: "Show proof of tensile strength, durability, zero defect rates, and dispatch readiness to win institutional confidence.",
       },
       {
-        icon: <FileText className="h-4 w-4 text-indigo-600" />,
+        icon: <FileText className="h-4 w-4 text-orange-600" />,
         title: "Client Case Studies & Order Dispatches",
         description: "Demonstrate real dispatch container loading, client testimonials, and track record of on-time delivery across India.",
       },
@@ -216,18 +216,18 @@ export function DigitalPresenceSolution() {
         
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200/80 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-xs">
-            <Zap className="h-3.5 w-3.5 text-[#1E5EFF]" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-200/80 bg-orange-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-xs">
+            <Zap className="h-3.5 w-3.5 text-[#FE5905]" />
             <span>HOW WE GET YOU DIRECT BUYERS</span>
           </div>
 
-          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.35rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.35rem] leading-tight ${montserrat.className}`}>
             Build a Digital Setup That{" "}
-            <span className="text-[#1E5EFF]">Brings Direct Buyers</span> to You
+            <span className="text-[#FE5905]">Brings Direct Buyers</span> to You
           </h2>
 
           <p className="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Our dedicated team sets up and manages your complete direct inquiry engine — so you get genuine bulk orders, exclusive buyer calls, and higher profit margins every month.
+            Our dedicated team sets up and manages your complete direct inquiry engine - so you get genuine bulk orders, exclusive buyer calls, and higher profit margins every month.
           </p>
 
           {/* Quick Value Points Strip */}
@@ -260,7 +260,7 @@ export function DigitalPresenceSolution() {
                   <span className={`inline-flex items-center rounded-md border px-2.5 py-0.5 text-[11px] font-extrabold uppercase tracking-wider ${card.accentColor.badge}`}>
                     {card.stepNumber}
                   </span>
-                  <span className="font-bold text-[#0B1E3D] text-base sm:text-[17px]">
+                  <span className="font-bold text-[#001A55] text-base sm:text-[17px]">
                     {card.categoryTag}
                   </span>
                 </div>
@@ -289,7 +289,7 @@ export function DigitalPresenceSolution() {
                       </div>
 
                       <div>
-                        <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-[#1E5EFF]">
+                        <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-[#FE5905]">
                           <span>✦</span>
                           <span>{card.simpleRole}</span>
                         </div>
@@ -348,8 +348,8 @@ export function DigitalPresenceSolution() {
         </div>
 
         {/* Bottom Guarantee Banner */}
-        <div className="mt-10 mx-auto max-w-4xl rounded-2xl border border-blue-200/80 bg-gradient-to-r from-blue-50 via-white to-blue-50 p-5 sm:p-7 text-center shadow-xs">
-          <h3 className={`text-base sm:text-lg font-bold text-[#0B1E3D] ${montserrat.className}`}>
+        <div className="mt-10 mx-auto max-w-4xl rounded-2xl border border-orange-200/80 bg-gradient-to-r from-orange-50 via-white to-orange-50 p-5 sm:p-7 text-center shadow-xs">
+          <h3 className={`text-base sm:text-lg font-bold text-[#001A55] ${montserrat.className}`}>
             You Focus on Manufacturing &amp; Dispatch. We Handle 100% of the Digital Work.
           </h3>
           <p className="mt-1.5 text-xs sm:text-[13px] text-slate-600 max-w-2xl mx-auto leading-relaxed">
@@ -358,7 +358,7 @@ export function DigitalPresenceSolution() {
           <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
             <a
               href="#hero"
-              className="inline-flex items-center gap-2 rounded-xl bg-[#0B1E3D] px-5 py-2.5 text-xs sm:text-[13px] font-bold text-white shadow-md hover:bg-slate-800 transition-all active:scale-95"
+              className="inline-flex items-center gap-2 rounded-xl bg-[#001A55] px-5 py-2.5 text-xs sm:text-[13px] font-bold text-white shadow-md hover:bg-slate-800 transition-all active:scale-95"
             >
               <span>Book Free Strategy Call</span>
               <ArrowRight className="h-3.5 w-3.5" />

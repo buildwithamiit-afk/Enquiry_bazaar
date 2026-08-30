@@ -46,12 +46,12 @@ export function LeadershipTeam() {
         
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-2xs">
-            <Sparkles className="h-3.5 w-3.5 text-[#1E5EFF]" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-2xs">
+            <Sparkles className="h-3.5 w-3.5 text-[#FE5905]" />
             <span>MEET OUR SPECIALISTS</span>
           </div>
 
-          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.25rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`mt-3 text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.25rem] leading-tight ${montserrat.className}`}>
             Dedicated Indian Growth Experts Working for You
           </h2>
 
@@ -65,11 +65,11 @@ export function LeadershipTeam() {
           {teamMembers.map((member) => (
             <div
               key={member.name}
-              className="rounded-2xl border-2 border-slate-200 bg-white p-5 text-center shadow-xs transition hover:border-blue-400 hover:shadow-md flex flex-col justify-between"
+              className="rounded-2xl border-2 border-slate-200 bg-white p-5 text-center shadow-xs transition hover:border-orange-400 hover:shadow-md flex flex-col justify-between"
             >
               <div>
                 {/* Photo Frame */}
-                <div className="mx-auto relative h-24 w-24 sm:h-28 sm:w-28 overflow-hidden rounded-full border-4 border-blue-50 shadow-md">
+                <div className="mx-auto relative h-24 w-24 sm:h-28 sm:w-28 overflow-hidden rounded-full border-4 border-orange-50 shadow-md">
                   <Image
                     src={member.image}
                     alt={member.name}
@@ -79,11 +79,11 @@ export function LeadershipTeam() {
                   />
                 </div>
 
-                <h3 className={`mt-4 text-base sm:text-[17px] font-bold text-[#0B1E3D] ${montserrat.className}`}>
+                <h3 className={`mt-4 text-base sm:text-[17px] font-bold text-[#001A55] ${montserrat.className}`}>
                   {member.name}
                 </h3>
 
-                <span className="text-[11.5px] font-bold text-[#1E5EFF] block mt-0.5">
+                <span className="text-[11.5px] font-bold text-[#FE5905] block mt-0.5">
                   {member.role}
                 </span>
 
@@ -101,10 +101,10 @@ export function LeadershipTeam() {
         </div>
 
         {/* Group Photo Callout Banner */}
-        <div className="mt-12 rounded-2xl bg-gradient-to-r from-[#0B1E3D] via-[#102B52] to-[#0B1E3D] p-6 sm:p-8 text-white shadow-xl">
+        <div className="mt-12 rounded-2xl bg-gradient-to-r from-[#001A55] via-[#001A55] to-[#001A55] p-6 sm:p-8 text-white shadow-xl">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-4 text-left">
-              <div className="hidden sm:grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-blue-500/20 border border-blue-400/30">
+              <div className="hidden sm:grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-orange-500/20 border border-orange-400/30">
                 <ShieldCheck className="h-6 w-6 text-emerald-400" />
               </div>
               <div>

@@ -59,15 +59,15 @@ export function FounderSection() {
         
         {/* Section Pill */}
         <div className="flex justify-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#1E5EFF] shadow-2xs">
-            <Sparkles className="h-3.5 w-3.5 text-[#1E5EFF]" />
+          <div className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#FE5905] shadow-2xs">
+            <Sparkles className="h-3.5 w-3.5 text-[#FE5905]" />
             <span>LEADERSHIP &amp; VISION</span>
           </div>
         </div>
 
         {/* Header */}
         <div className="mt-4 text-center max-w-3xl mx-auto">
-          <h2 className={`text-2xl font-extrabold tracking-tight text-[#0B1E3D] sm:text-3xl lg:text-[2.35rem] leading-tight ${montserrat.className}`}>
+          <h2 className={`text-2xl font-extrabold tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.35rem] leading-tight ${montserrat.className}`}>
             Meet the Founder
           </h2>
           <p className="mt-2.5 text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
@@ -86,7 +86,7 @@ export function FounderSection() {
               
               {/* Photo & Identity */}
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left">
-                <div className="relative h-28 w-28 sm:h-32 sm:w-32 shrink-0 overflow-hidden rounded-2xl border-2 border-blue-500/30 shadow-md">
+                <div className="relative h-28 w-28 sm:h-32 sm:w-32 shrink-0 overflow-hidden rounded-2xl border-2 border-orange-500/30 shadow-md">
                   <Image
                     src="/images/specialists/indian_male_seo.png"
                     alt="Amit Pandey - Software Engineer & Founder of EnquiryBazaar"
@@ -98,10 +98,10 @@ export function FounderSection() {
                 </div>
 
                 <div className="flex flex-col">
-                  <h3 className={`text-xl sm:text-2xl font-extrabold text-[#0B1E3D] ${montserrat.className}`}>
+                  <h3 className={`text-xl sm:text-2xl font-extrabold text-[#001A55] ${montserrat.className}`}>
                     Amit Pandey
                   </h3>
-                  <span className="text-xs sm:text-sm font-bold text-[#1E5EFF] mt-0.5">
+                  <span className="text-xs sm:text-sm font-bold text-[#FE5905] mt-0.5">
                     Software Engineer &amp; Founder, EnquiryBazaar
                   </span>
                   <p className="text-xs text-slate-500 mt-1">
@@ -109,7 +109,7 @@ export function FounderSection() {
                   </p>
 
                   <div className="mt-3 flex flex-wrap gap-2 justify-center sm:justify-start">
-                    <span className="rounded-md bg-blue-100/70 px-2 py-0.5 text-[11px] font-bold text-blue-800 border border-blue-200">
+                    <span className="rounded-md bg-orange-100/70 px-2 py-0.5 text-[11px] font-bold text-orange-800 border border-orange-200">
                       B2B Systems Architect
                     </span>
                     <span className="rounded-md bg-emerald-100/70 px-2 py-0.5 text-[11px] font-bold text-emerald-800 border border-emerald-200">
@@ -120,13 +120,13 @@ export function FounderSection() {
               </div>
 
               {/* Founder Quote */}
-              <div className="mt-6 rounded-xl border border-blue-100 bg-blue-50/60 p-4 relative">
-                <Quote className="h-5 w-5 text-blue-400/40 absolute right-3 top-3" />
+              <div className="mt-6 rounded-xl border border-orange-100 bg-orange-50/60 p-4 relative">
+                <Quote className="h-5 w-5 text-orange-400/40 absolute right-3 top-3" />
                 <p className="text-xs sm:text-[13px] font-semibold text-slate-800 italic leading-relaxed">
                   &ldquo;A website is not the destination. It is a foundation for business growth. A good digital system must help a factory get discovered, build trust, and turn interest into genuine bulk orders.&rdquo;
                 </p>
-                <span className="text-[11px] font-bold text-[#1E5EFF] block mt-2 text-right">
-                  — Amit Pandey
+                <span className="text-[11px] font-bold text-[#FE5905] block mt-2 text-right">
+                  - Amit Pandey
                 </span>
               </div>
 
@@ -146,7 +146,7 @@ export function FounderSection() {
                   href="https://www.linkedin.com/in/amit-pandey-86aa62338/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl border border-blue-200 bg-white px-4 py-2.5 text-xs sm:text-sm font-bold text-[#0A66C2] shadow-2xs transition hover:bg-blue-50 active:scale-95"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl border border-orange-200 bg-white px-4 py-2.5 text-xs sm:text-sm font-bold text-[#0A66C2] shadow-2xs transition hover:bg-orange-50 active:scale-95"
                 >
                   <svg className="h-4 w-4 fill-current shrink-0" viewBox="0 0 24 24">
                     <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z"/>
@@ -164,7 +164,7 @@ export function FounderSection() {
                   key={stat.label}
                   className="rounded-xl border border-slate-200 bg-white p-3.5 text-center shadow-2xs"
                 >
-                  <div className={`text-xl font-extrabold text-[#0B1E3D] ${montserrat.className}`}>
+                  <div className={`text-xl font-extrabold text-[#001A55] ${montserrat.className}`}>
                     {stat.value}
                   </div>
                   <div className="text-[11.5px] font-bold text-slate-800 mt-0.5">
@@ -184,7 +184,7 @@ export function FounderSection() {
             
             {/* Story Block 1 */}
             <div className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-xs">
-              <h4 className={`text-base sm:text-lg font-bold text-[#0B1E3D] ${montserrat.className}`}>
+              <h4 className={`text-base sm:text-lg font-bold text-[#001A55] ${montserrat.className}`}>
                 From Software Engineering to Industrial Business Growth
               </h4>
               <p className="mt-2.5">
@@ -197,14 +197,14 @@ export function FounderSection() {
 
             {/* Story Block 2: The Core Challenge */}
             <div className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-xs">
-              <h4 className={`text-base sm:text-lg font-bold text-[#0B1E3D] ${montserrat.className}`}>
+              <h4 className={`text-base sm:text-lg font-bold text-[#001A55] ${montserrat.className}`}>
                 The Problem I Witnessed in Indian Manufacturing
               </h4>
               <p className="mt-2.5">
                 Through direct factory visits and founder conversations, I noticed a painful paradox:
               </p>
               <div className="mt-3 rounded-xl bg-slate-50 border border-slate-200 p-4 text-slate-800 font-medium">
-                &ldquo;Many Indian manufacturers have excellent products, strong manufacturing capabilities, modern machinery, and decades of industry experience — yet their digital presence does not reflect the quality of their business.&rdquo;
+                &ldquo;Many Indian manufacturers have excellent products, strong manufacturing capabilities, modern machinery, and decades of industry experience - yet their digital presence does not reflect the quality of their business.&rdquo;
               </div>
               <p className="mt-3">
                 Most factory owners were stuck in two extremes: either relying strictly on unpredictable local referrals, or renting directory listings on IndiaMART and Justdial where their hard-earned inquiries were shared with 8 to 10 competing suppliers, triggering brutal price wars.
@@ -212,8 +212,8 @@ export function FounderSection() {
             </div>
 
             {/* The 4-Pillar Growth Framework */}
-            <div className="rounded-2xl border-2 border-blue-500/30 bg-blue-50/30 p-6 shadow-xs">
-              <h4 className={`text-base sm:text-lg font-bold text-[#0B1E3D] ${montserrat.className}`}>
+            <div className="rounded-2xl border-2 border-orange-500/30 bg-orange-50/30 p-6 shadow-xs">
+              <h4 className={`text-base sm:text-lg font-bold text-[#001A55] ${montserrat.className}`}>
                 The EnquiryBazaar Framework: What Every Manufacturer Needs
               </h4>
               <p className="mt-1.5 text-slate-600">
@@ -222,9 +222,9 @@ export function FounderSection() {
 
               <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {pillars.map((p) => (
-                  <div key={p.title} className="rounded-xl bg-white border border-blue-100 p-3.5 shadow-2xs">
+                  <div key={p.title} className="rounded-xl bg-white border border-orange-100 p-3.5 shadow-2xs">
                     <div className="flex items-center gap-2">
-                      <span className="rounded bg-blue-600 text-white text-[10px] font-extrabold px-1.5 py-0.5">
+                      <span className="rounded bg-orange-600 text-white text-[10px] font-extrabold px-1.5 py-0.5">
                         {p.step}
                       </span>
                       <span className="font-bold text-slate-900 text-xs sm:text-sm">
@@ -241,7 +241,7 @@ export function FounderSection() {
 
             {/* My Mission */}
             <div className="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-xs">
-              <h4 className={`text-base sm:text-lg font-bold text-[#0B1E3D] ${montserrat.className}`}>
+              <h4 className={`text-base sm:text-lg font-bold text-[#001A55] ${montserrat.className}`}>
                 My Mission for Indian Manufacturing
               </h4>
               <p className="mt-2.5">
