@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Montserrat, Inter } from "next/font/google";
-import { footerPages, footerSections, whatsappCta } from "./content";
+import { footerPages, footerSections, footerTools, whatsappCta } from "./content";
 import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["700", "800"] });
@@ -24,7 +24,7 @@ export function Footer() {
     <footer className={`border-t border-slate-200 bg-[#001A55] text-slate-400 ${inter.className}`}>
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-[1.3fr_0.8fr_0.9fr_1fr]">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-[1.2fr_0.7fr_0.8fr_0.8fr_1fr]">
           
           {/* Brand & Helpline Col */}
           <div className="flex flex-col items-start">
@@ -61,7 +61,7 @@ export function Footer() {
           {/* Company & Pages */}
           <div className="flex flex-col">
             <h4 className={`text-xs font-bold uppercase tracking-wider text-white ${montserrat.className}`}>
-              Company Pages
+              Company
             </h4>
             <ul className="mt-4 space-y-2 text-xs sm:text-[13px]">
               {footerPages.map((item) => (
@@ -71,6 +71,33 @@ export function Footer() {
                     className="transition-colors hover:text-white"
                   >
                     {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Free Growth Tools Col */}
+          <div className="flex flex-col">
+            <h4 className={`text-xs font-bold uppercase tracking-wider text-orange-400 ${montserrat.className} flex items-center gap-1.5`}>
+              <span>Free Tools</span>
+              <span className="rounded-sm bg-[#FE5905] px-1 py-0.2 text-[9px] font-black text-white uppercase">
+                Hot
+              </span>
+            </h4>
+            <ul className="mt-4 space-y-2 text-xs sm:text-[13px]">
+              {footerTools.map((item) => (
+                <li key={item.label}>
+                  <Link
+                    href={item.href}
+                    className="group inline-flex items-center gap-1.5 transition-colors hover:text-white"
+                  >
+                    <span>{item.label}</span>
+                    {item.isNew && (
+                      <span className="rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-1 py-0.2 text-[9px] font-bold">
+                        New
+                      </span>
+                    )}
                   </Link>
                 </li>
               ))}

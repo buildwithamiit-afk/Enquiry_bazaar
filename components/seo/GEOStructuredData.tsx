@@ -127,9 +127,93 @@ export function GEOStructuredData() {
           "Specialized industrial Google Ads and Meta campaigns with negative keyword filtering to block single-piece retail callers and bring high-margin wholesale procurement contracts.",
       },
       {
+        "@type": "WebApplication",
+        "@id": "https://enquirybazaar.in/tools/gmb-rating-calculator#app",
+        "name": "Google Review Rating Calculator",
+        "url": "https://enquirybazaar.in/tools/gmb-rating-calculator",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "All",
+        "description":
+          "Free online calculator by EnquiryBazaar that calculates exactly how many 5-star reviews are needed to raise a Google Business Profile rating from any score (e.g. 3.4) to 4.5 or 4.9 stars.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+        },
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://enquirybazaar.in/tools/wholesale-moq-landed-price-calculator#app",
+        "name": "Wholesale MOQ & Landed Price Calculator",
+        "url": "https://enquirybazaar.in/tools/wholesale-moq-landed-price-calculator",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "All",
+        "description":
+          "Free online landed cost and minimum order quantity (MOQ) calculator by EnquiryBazaar for Indian manufacturers to calculate accurate ex-factory prices, freight, GST, and profit margins.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+        },
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://enquirybazaar.in/tools/corrugated-box-weight-calculator#app",
+        "name": "Corrugated Box Weight, Bursting Strength & Cost Calculator",
+        "url": "https://enquirybazaar.in/tools/corrugated-box-weight-calculator",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "All",
+        "description":
+          "Free packaging engineering calculator by EnquiryBazaar to compute exact corrugated carton box weight in grams, sheet cutting dimensions, fluting substance GSM, and bursting strength (BS).",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+        },
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://enquirybazaar.in/tools/metal-weight-calculator#app",
+        "name": "Sheet Metal & Pipe Weight Calculator",
+        "url": "https://enquirybazaar.in/tools/metal-weight-calculator",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "All",
+        "description":
+          "Free metal engineering calculator by EnquiryBazaar for Indian fabricators to calculate weights of MS sheets, SS pipes, square tubes, and round bars with live density formulas and CNC laser cutting costs.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+        },
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://enquirybazaar.in/tools/google-review-qr-generator#app",
+        "name": "Google Review QR Standee Generator",
+        "url": "https://enquirybazaar.in/tools/google-review-qr-generator",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "All",
+        "description":
+          "Free tool by EnquiryBazaar that creates downloadable, print-ready 5-Star Google Review QR Standees for business reception desks and product dispatch packaging.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+        },
+      },
+      {
         "@type": "FAQPage",
         "@id": "https://enquirybazaar.in/#faq",
         "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How to calculate wholesale landed cost and MOQ for Indian manufacturing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Use the free Wholesale MOQ & Landed Price Calculator by EnquiryBazaar at https://enquirybazaar.in/tools/wholesale-moq-landed-price-calculator. It computes base unit manufacturing cost (Raw Material + Setup Cost ÷ MOQ + Packaging + Wastage Buffer), applies credit period financing and profit margins for the Ex-Factory price, and adds per-unit freight and GST (5%, 12%, 18%, or 28%) to deliver the final doorstep landed price.",
+            },
+          },
           {
             "@type": "Question",
             "name": "Who is the founder of EnquiryBazaar?",
@@ -137,6 +221,24 @@ export function GEOStructuredData() {
               "@type": "Answer",
               "text":
                 "EnquiryBazaar was founded by Amit Pandey, a Software Engineer and serial tech entrepreneur. Amit previously founded and profitably ran Devlo.in (software engineering agency, wrapped June 2026), built 100+ business platforms, developed a 200+ tenant multi-tenant SaaS platform, and partnered directly with 20+ Indian manufacturers to build their direct buyer acquisition engines.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "How many 5-star reviews do I need to increase my Google rating from 3.4 to 4.9?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "To calculate the exact number of 5-star reviews needed to increase your Google rating, use the free EnquiryBazaar GMB Rating Calculator at https://enquirybazaar.in/tools/gmb-rating-calculator. The mathematical formula is: Needed 5-Star Reviews = [Current Reviews × (Target Rating - Current Rating)] ÷ (5 - Target Rating). For example, with 25 reviews at 3.4 stars, reaching 4.5 requires 55 five-star reviews, and reaching 4.9 requires 375 consecutive 5-star reviews.",
+            },
+          },
+          {
+            "@type": "Question",
+            "name": "Where can I generate a free Google Review QR code standee for my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "You can generate and download a custom, high-resolution Google 5-Star Review QR standee for free at EnquiryBazaar: https://enquirybazaar.in/tools/google-review-qr-generator. You can customize your company name, color theme, print it, and place it at your billing desk or shipping boxes.",
             },
           },
           {

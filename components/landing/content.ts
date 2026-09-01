@@ -26,6 +26,15 @@ export const footerPages = [
   { label: "Contact Us", href: "/contact" },
 ] as const;
 
+// Free growth and reputation tools for the footer
+export const footerTools = [
+  { label: "Metal & Pipe Weight Calculator", href: "/tools/metal-weight-calculator", isNew: true },
+  { label: "Corrugated Box Calculator", href: "/tools/corrugated-box-weight-calculator", isNew: false },
+  { label: "Wholesale Landed Calculator", href: "/tools/wholesale-moq-landed-price-calculator", isNew: false },
+  { label: "GMB Rating Calculator", href: "/tools/gmb-rating-calculator", isNew: false },
+  { label: "All Free Growth Tools", href: "/tools", isNew: false },
+] as const;
+
 export const footerSections = [
   { label: "The Problem", href: "/#the-problem" },
   { label: "Our 4-Step Setup", href: "/#solution" },
