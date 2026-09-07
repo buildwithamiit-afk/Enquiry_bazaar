@@ -169,9 +169,15 @@ export function PortfolioClient() {
               </a>
             </div>
 
-            <p className="mt-5 text-[12px] font-medium text-slate-400">
-              Free consultation • No hidden charges • Dedicated support
-            </p>
+            <div className="mt-8 flex justify-center">
+              <div className="inline-flex flex-wrap items-center justify-center gap-2.5 rounded-full bg-orange-50/80 border border-orange-100 px-4 py-2 text-[12px] font-bold tracking-wide text-[#001A55] shadow-sm">
+                <span>Free consultation</span>
+                <span className="text-[#FE5905]">&bull;</span>
+                <span>No hidden charges</span>
+                <span className="text-[#FE5905]">&bull;</span>
+                <span>Dedicated support</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

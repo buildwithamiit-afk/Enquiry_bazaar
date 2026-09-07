@@ -1,11 +1,25 @@
 "use client";
 
+import { useState } from "react";
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["600", "700", "800"] });
 
 export function PortfolioContact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    service: "",
+    date: "",
+    details: "",
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const message = `Hi Enquiry Bazaar, I want to book a Strategy Call.\n\n*Name:* ${formData.name}\n*Service:* ${formData.service}\n*Preferred Date:* ${formData.date}\n*Details:* ${formData.details || "N/A"}`;
+    window.open(`https://wa.me/918887048276?text=${encodeURIComponent(message)}`, "_blank");
+  };
+
   return (
     <section id="contact" className="bg-white py-16 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -87,7 +101,7 @@ export function PortfolioContact() {
                 Complete the form below, and we'll confirm your booking on WhatsApp as soon as possible.
               </p>
 
-              <form className="mt-8 space-y-6" onSubmit={(e) => { e.preventDefault(); window.open(`https://wa.me/918887048276?text=Hi Enquiry Bazaar, I submitted the strategy call form.`, '_blank'); }}>
+              <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   <div className="space-y-2">
                     <label className="text-[11px] font-bold tracking-widest text-slate-700 uppercase">Full Name</label>
@@ -95,6 +109,8 @@ export function PortfolioContact() {
                       type="text"
                       placeholder="Enter your full name"
                       required
+                      value={formData.name}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full border-b border-slate-200 bg-transparent px-2 py-3 text-[14px] transition-colors focus:border-[#FE5905] focus:outline-none placeholder:text-slate-400"
                     />
                   </div>
@@ -102,6 +118,8 @@ export function PortfolioContact() {
                     <label className="text-[11px] font-bold tracking-widest text-slate-700 uppercase">Choose a Service</label>
                     <select
                       required
+                      value={formData.service}
+                      onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                       className="w-full border-b border-slate-200 bg-transparent px-2 py-3 text-[14px] text-slate-700 transition-colors focus:border-[#FE5905] focus:outline-none appearance-none"
                     >
                       <option value="">Select your preferred service</option>
@@ -119,6 +137,8 @@ export function PortfolioContact() {
                   <input
                     type="date"
                     required
+                    value={formData.date}
+                    onChange={(e) => setFormData({ ...formData, date: e.target.value })}
                     className="w-full border-b border-slate-200 bg-transparent px-2 py-3 text-[14px] text-slate-700 transition-colors focus:border-[#FE5905] focus:outline-none"
                   />
                 </div>
@@ -128,6 +148,8 @@ export function PortfolioContact() {
                   <textarea
                     placeholder="Share any preferences or additional details for your appointment."
                     rows={3}
+                    value={formData.details}
+                    onChange={(e) => setFormData({ ...formData, details: e.target.value })}
                     className="w-full border-b border-slate-200 bg-transparent px-2 py-3 text-[14px] transition-colors focus:border-[#FE5905] focus:outline-none resize-none placeholder:text-slate-400"
                   />
                 </div>

@@ -184,7 +184,7 @@ export function PortfolioServices() {
             </p>
             <div className="mt-6 flex justify-center">
               <a
-                href="/#hero"
+                href="tel:+919696717305"
                 className="inline-flex items-center justify-center bg-[#FE5905] px-8 py-3 text-[13px] font-bold tracking-wider text-white uppercase transition-colors hover:bg-[#ff6f26]"
               >
                 Book Your Free Strategy Call
