@@ -148,8 +148,6 @@ export function Footer() {
           <div className="flex items-center gap-4 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="text-slate-700">|</span>
-            <Link href="/about" className="hover:text-white transition-colors">About Us</Link>
-            <span className="text-slate-700">|</span>
             <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
             <span className="text-slate-700">|</span>
             <span className="text-[#FE5905] font-semibold">100% Verified Manufacturer Partner</span>

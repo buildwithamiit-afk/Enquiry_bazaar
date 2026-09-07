@@ -22,7 +22,6 @@ export const navItems = [
 export const footerPages = [
   { label: "Home", href: "/" },
   { label: "Client Portfolio", href: "/portfolio" },
-  { label: "About Us", href: "/about" },
   { label: "Contact Us", href: "/contact" },
 ] as const;
 
