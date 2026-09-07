@@ -1,12 +1,12 @@
 export const consultationCta = {
-  href: "/#hero",
+  href: "/portfolio#contact",
   label: "Book Free Demo",
 } as const;
 
 export const whatsappCta = {
-  href: "https://wa.me/919696717305?text=Hi%2C%20I%20want%20to%20get%20direct%20bulk%20buyer%20enquiries%20for%20my%20business.",
+  href: "https://wa.me/918887048276?text=Hi%2C%20I%20want%20to%20get%20direct%20bulk%20buyer%20enquiries%20for%20my%20business.",
   label: "WhatsApp",
-  phoneDisplay: "+91 96967 17305",
+  phoneDisplay: "+91 88870 48276",
 } as const;
 
 // Clean high-intent header navigation (Without About & Contact)
@@ -21,8 +21,8 @@ export const navItems = [
 // All website pages for the footer
 export const footerPages = [
   { label: "Home", href: "/" },
+  { label: "Client Portfolio", href: "/portfolio" },
   { label: "About Us", href: "/about" },
-  { label: "Meet the Founder", href: "/about#founder" },
   { label: "Contact Us", href: "/contact" },
 ] as const;
 

@@ -21,54 +21,73 @@ const industriesList = [
 
 export function Footer() {
   return (
-    <footer className={`border-t border-slate-200 bg-[#001A55] text-slate-400 ${inter.className}`}>
+    <footer className={`border-t-4 border-[#FE5905] bg-[#001A55] text-slate-300 ${inter.className}`}>
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-[1.2fr_0.7fr_0.8fr_0.8fr_1fr]">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-10">
           
           {/* Brand & Helpline Col */}
-          <div className="flex flex-col items-start">
-            <Link href="/" className="flex items-center gap-2.5">
+          <div className="flex flex-col items-start lg:col-span-1 xl:col-span-1">
+            <Link href="/" className="flex items-center gap-2.5 rounded-xl bg-white px-4 py-2 shadow-sm">
               <Image
                 src="/images/logo/Enquiry_main_logo.png"
                 alt="EnquiryBazaar Logo"
                 width={220}
                 height={62}
-                className="h-12 w-auto sm:h-16 invert brightness-0"
+                className="h-9 w-auto sm:h-10"
               />
             </Link>
 
-            <p className="mt-3 text-xs sm:text-[13px] text-slate-300 leading-relaxed max-w-sm">
+            <p className="mt-5 text-[13px] text-slate-300 leading-relaxed max-w-xs">
               Empowering Indian manufacturers and B2B suppliers to get 100% exclusive direct buyer inquiries, wholesale orders, and permanent Google visibility.
             </p>
 
-            <div className="mt-5 flex flex-col gap-2">
+            <div className="mt-6 flex flex-col gap-3">
               <a
                 href={whatsappCta.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-xl bg-emerald-600/20 border border-emerald-500/40 px-4 py-2.5 text-xs sm:text-[13px] font-bold text-emerald-400 transition hover:bg-emerald-600 hover:text-white"
+                className="inline-flex w-fit items-center gap-2 rounded-lg bg-[#FE5905] px-4 py-2.5 text-[13px] font-bold text-white shadow-md transition-transform hover:-translate-y-0.5 hover:bg-[#ff6f26]"
               >
                 <WhatsAppIcon className="h-5 w-5 shrink-0" />
-                <span>WhatsApp: +91 96967 17305</span>
+                <span>WhatsApp Us</span>
               </a>
-              <span className="text-[11.5px] text-slate-400">
-                📞 Direct B2B Helpline: <a href="tel:+919696717305" className="text-orange-300 font-semibold hover:underline">+91 96967 17305</a>
+              <span className="text-[12px] text-slate-400">
+                📞 Direct Helpline: <a href="tel:+916387375032" className="text-white font-semibold hover:text-[#FE5905] transition-colors">+91 6387375032</a> , <a href="tel:+919696717305" className="text-white font-semibold hover:text-[#FE5905] transition-colors">+91 96967 17305</a>
               </span>
             </div>
           </div>
 
           {/* Company & Pages */}
-          <div className="flex flex-col">
-            <h4 className={`text-xs font-bold uppercase tracking-wider text-white ${montserrat.className}`}>
+          <div className="flex flex-col lg:ml-auto">
+            <h4 className={`text-[13px] font-bold uppercase tracking-wider text-white ${montserrat.className}`}>
               Company
             </h4>
-            <ul className="mt-4 space-y-2 text-xs sm:text-[13px]">
+            <ul className="mt-5 space-y-3 text-[13px]">
               {footerPages.map((item) => (
                 <li key={item.label}>
                   <Link
                     href={item.href}
-                    className="transition-colors hover:text-white"
+                    className="transition-colors hover:text-[#FE5905]"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Core Solution Sections */}
+          <div className="flex flex-col lg:ml-auto">
+            <h4 className={`text-[13px] font-bold uppercase tracking-wider text-white ${montserrat.className}`}>
+              Growth Engine
+            </h4>
+            <ul className="mt-5 space-y-3 text-[13px]">
+              {footerSections.map((item) => (
+                <li key={item.label}>
+                  <Link
+                    href={item.href}
+                    className="transition-colors hover:text-[#FE5905]"
                   >
                     {item.label}
                   </Link>
@@ -78,23 +97,23 @@ export function Footer() {
           </div>
 
           {/* Free Growth Tools Col */}
-          <div className="flex flex-col">
-            <h4 className={`text-xs font-bold uppercase tracking-wider text-orange-400 ${montserrat.className} flex items-center gap-1.5`}>
+          <div className="flex flex-col lg:ml-auto">
+            <h4 className={`text-[13px] font-bold uppercase tracking-wider text-white flex items-center gap-2 ${montserrat.className}`}>
               <span>Free Tools</span>
-              <span className="rounded-sm bg-[#FE5905] px-1 py-0.2 text-[9px] font-black text-white uppercase">
+              <span className="rounded bg-[#FE5905] px-1.5 py-0.5 text-[9px] font-black text-white uppercase tracking-wider">
                 Hot
               </span>
             </h4>
-            <ul className="mt-4 space-y-2 text-xs sm:text-[13px]">
+            <ul className="mt-5 space-y-3 text-[13px]">
               {footerTools.map((item) => (
                 <li key={item.label}>
                   <Link
                     href={item.href}
-                    className="group inline-flex items-center gap-1.5 transition-colors hover:text-white"
+                    className="group flex items-start gap-2 transition-colors hover:text-[#FE5905]"
                   >
-                    <span>{item.label}</span>
+                    <span className="leading-snug">{item.label}</span>
                     {item.isNew && (
-                      <span className="rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-1 py-0.2 text-[9px] font-bold">
+                      <span className="shrink-0 rounded border border-[#FE5905]/40 bg-[#FE5905]/10 px-1.5 py-0.5 text-[9px] font-bold text-[#FE5905]">
                         New
                       </span>
                     )}
@@ -104,35 +123,16 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Core Solution Sections */}
-          <div className="flex flex-col">
-            <h4 className={`text-xs font-bold uppercase tracking-wider text-white ${montserrat.className}`}>
-              Growth Engine
-            </h4>
-            <ul className="mt-4 space-y-2 text-xs sm:text-[13px]">
-              {footerSections.map((item) => (
-                <li key={item.label}>
-                  <Link
-                    href={item.href}
-                    className="transition-colors hover:text-white"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* Industries Served */}
           <div className="flex flex-col">
-            <h4 className={`text-xs font-bold uppercase tracking-wider text-white ${montserrat.className}`}>
+            <h4 className={`text-[13px] font-bold uppercase tracking-wider text-white ${montserrat.className}`}>
               Industries We Empower
             </h4>
-            <div className="mt-4 flex flex-wrap gap-1.5 text-[11px] font-medium text-slate-300">
+            <div className="mt-5 flex flex-wrap gap-2 text-[11px] font-medium text-slate-300">
               {industriesList.map((ind) => (
                 <span
                   key={ind}
-                  className="rounded-lg bg-slate-800/80 border border-slate-700/60 px-2.5 py-1"
+                  className="rounded-md bg-white/5 border border-white/10 px-2.5 py-1.5 transition-colors hover:bg-white/10"
                 >
                   {ind}
                 </span>
@@ -143,16 +143,16 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-slate-800 pt-6 sm:flex-row text-xs text-slate-500">
+        <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-slate-700/60 pt-6 sm:flex-row text-xs text-slate-500">
           <p>© {new Date().getFullYear()} EnquiryBazaar.in · All rights reserved.</p>
-          <div className="flex items-center gap-3 flex-wrap">
-            <Link href="/" className="hover:text-slate-400 transition-colors">Home</Link>
-            <span>·</span>
-            <Link href="/about" className="hover:text-slate-400 transition-colors">About Us</Link>
-            <span>·</span>
-            <Link href="/contact" className="hover:text-slate-400 transition-colors">Contact</Link>
-            <span>·</span>
-            <span className="text-emerald-400 font-semibold">100% Verified Manufacturer Partner</span>
+          <div className="flex items-center gap-4 flex-wrap">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="text-slate-700">|</span>
+            <Link href="/about" className="hover:text-white transition-colors">About Us</Link>
+            <span className="text-slate-700">|</span>
+            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
+            <span className="text-slate-700">|</span>
+            <span className="text-[#FE5905] font-semibold">100% Verified Manufacturer Partner</span>
           </div>
         </div>
 
