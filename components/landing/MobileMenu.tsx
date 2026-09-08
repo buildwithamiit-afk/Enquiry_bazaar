@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { navItems, whatsappCta } from "./content";
 import { PrimaryCTA } from "./PrimaryCTA";
 import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
@@ -9,6 +10,8 @@ type MobileMenuProps = {
 };
 
 export function MobileMenu({ open, onNavigate }: MobileMenuProps) {
+  const pathname = usePathname();
+
   return (
     <div
       className={`lg:hidden ${open ? "pointer-events-auto" : "pointer-events-none"}`}
@@ -25,7 +28,7 @@ export function MobileMenu({ open, onNavigate }: MobileMenuProps) {
             className="mt-2 rounded-2xl border border-slate-200 bg-white/98 p-4 shadow-xl backdrop-blur-md"
           >
             <ul className="flex flex-col gap-1">
-              {navItems.map((item) => (
+              {pathname !== "/portfolio" && navItems.map((item) => (
                 <li key={item.label}>
                   <Link
                     href={item.href}

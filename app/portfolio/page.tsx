@@ -6,6 +6,8 @@ import { Header } from "@/components/landing/Header";
 import { PortfolioClient } from "@/components/portfolio/PortfolioClient";
 import { PortfolioServices } from "@/components/portfolio/PortfolioServices";
 import { PortfolioContact } from "@/components/portfolio/PortfolioContact";
+import { TrustedBy } from "@/components/landing/TrustedBy";
+import { BusinessPartners } from "@/components/landing/BusinessPartners";
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["600", "700", "800"] });
 const inter = Inter({ subsets: ["latin"] });
@@ -86,7 +88,9 @@ export default function PortfolioPage() {
           </div>
         </section>
 
+        <TrustedBy />
         <PortfolioServices />
+        <BusinessPartners />
         <PortfolioClient />
         <PortfolioContact />
       </main>

@@ -114,7 +114,7 @@ export function PortfolioServices() {
         </div>
 
         {/* Services Grid */}
-        <div className="mt-10 grid gap-4 sm:mt-12 md:grid-cols-2 lg:grid-cols-3 lg:gap-5">
+        <div className="mt-10 grid items-start gap-4 sm:mt-12 md:grid-cols-2 lg:grid-cols-3 lg:gap-5">
           {services.map((service, index) => {
             const isExpanded = expandedCards[index];
             

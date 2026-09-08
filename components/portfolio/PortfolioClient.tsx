@@ -7,6 +7,16 @@ import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 const projects = [
   {
+    domain: "smartzaar.in",
+    url: "https://www.smartzaar.in/",
+    image: "https://res.cloudinary.com/dxcakk4vq/image/upload/v1788852238/ChatGPT_Image_Sep_8_2026_12_52_53_PM_tpofkj.png",
+  },
+  {
+    domain: "rajahomedecor.com",
+    url: "https://rajahomedecor.com/",
+    image: "https://res.cloudinary.com/dxcakk4vq/image/upload/v1788774081/portfolio_9_idcpvb.png",
+  },
+  {
     domain: "chahfoundation.com",
     url: "https://chahfoundation.com/",
     image: "https://res.cloudinary.com/dxcakk4vq/image/upload/v1788774083/portfolio_10_qlb1fh.png",
@@ -15,11 +25,6 @@ const projects = [
     domain: "astrologerinnavimumbai.in",
     url: "https://astrologerinnavimumbai.in/",
     image: "https://res.cloudinary.com/dxcakk4vq/image/upload/v1788774082/portfolio_3_vmbnqx.png",
-  },
-  {
-    domain: "rajahomedecor.com",
-    url: "https://rajahomedecor.com/",
-    image: "https://res.cloudinary.com/dxcakk4vq/image/upload/v1788774081/portfolio_9_idcpvb.png",
   },
   {
     domain: "mytownmap.com",
@@ -45,11 +50,6 @@ const projects = [
     domain: "guruskripaastrologer.co.in",
     url: "https://guruskripaastrologer.co.in/",
     image: "https://res.cloudinary.com/dxcakk4vq/image/upload/v1788774080/portfolio_1_dbl4yg.png",
-  },
-  {
-    domain: "gurukripajyotishkendra.in",
-    url: "https://gurukripajyotishkendra.in/",
-    image: "https://res.cloudinary.com/dxcakk4vq/image/upload/v1788774080/portfolio_4_h9myuy.png",
   }
 ];
 

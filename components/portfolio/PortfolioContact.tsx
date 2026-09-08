@@ -16,7 +16,7 @@ export function PortfolioContact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const message = `Hi Enquiry Bazaar, I want to book a Strategy Call.\n\n*Name:* ${formData.name}\n*Service:* ${formData.service}\n*Preferred Date:* ${formData.date}\n*Details:* ${formData.details || "N/A"}`;
+    const message = `Hii Enquiry Bazaar, I submitted the strategy call form.\n\nName: ${formData.name}\nService: ${formData.service}\nPreferred Date: ${formData.date}\nDetails: ${formData.details || "N/A"}`;
     window.open(`https://wa.me/918887048276?text=${encodeURIComponent(message)}`, "_blank");
   };
 

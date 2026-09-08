@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { Montserrat, Inter } from "next/font/google";
 
 import { MobileMenu } from "./MobileMenu";
@@ -17,6 +18,7 @@ const inter = Inter({ subsets: ["latin"] });
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -83,7 +85,7 @@ export function Header() {
             className="hidden items-center justify-center lg:flex"
           >
             <ul className="flex items-center gap-6 text-[13.5px] font-semibold text-slate-600">
-              {navItems.map((item) => (
+              {pathname !== "/portfolio" && navItems.map((item) => (
                 <li key={item.label}>
                   <Link
                     href={item.href}
