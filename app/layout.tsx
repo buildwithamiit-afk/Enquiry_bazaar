@@ -87,6 +87,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             })(window, document, "clarity", "script", "y7d51gxp9r");
           `}
         </Script>
+        {/* Google Analytics (GA4) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-5KT9T200WC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5KT9T200WC');
+          `}
+        </Script>
       </head>
       <body className="min-h-full overflow-x-hidden bg-background text-foreground">
         <a
