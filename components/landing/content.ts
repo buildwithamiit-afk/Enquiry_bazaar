@@ -21,6 +21,7 @@ export const navItems = [
 // All website pages for the footer
 export const footerPages = [
   { label: "Home", href: "/" },
+  { label: "Blog & Guides", href: "/blog" },
   { label: "Client Portfolio", href: "/portfolio" },
   { label: "Contact Us", href: "/contact" },
 ] as const;
