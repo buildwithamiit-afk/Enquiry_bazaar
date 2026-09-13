@@ -8,6 +8,7 @@ import { DigitalPresenceSolution } from "@/components/landing/DigitalPresenceSol
 import { PlatformComparison } from "@/components/landing/PlatformComparison";
 import { FAQ } from "@/components/landing/FAQ";
 import { FinalCTA } from "@/components/landing/FinalCTA";
+import { HomeContactSection } from "@/components/landing/HomeContactSection";
 import { Footer } from "@/components/landing/Footer";
 
 export default function Home() {
@@ -23,9 +24,11 @@ export default function Home() {
         <DigitalPresenceSolution />
         <PlatformComparison />
         <FAQ />
+        <HomeContactSection />
         <FinalCTA />
       </main>
       <Footer />
     </>
   );
 }
+

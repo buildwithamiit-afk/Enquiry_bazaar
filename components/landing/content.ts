@@ -9,14 +9,15 @@ export const whatsappCta = {
   phoneDisplay: "+91 88870 48276",
 } as const;
 
-// Clean high-intent header navigation (Without About & Contact)
 export const navItems = [
   { label: "The Problem", href: "/#the-problem" },
   { label: "Our 4-Step Setup", href: "/#solution" },
   { label: "Industries", href: "/#industries" },
   { label: "Portals vs Direct", href: "/#comparison" },
   { label: "FAQs", href: "/#faq" },
+  { label: "Contact Us", href: "/#contact-us" },
 ] as const;
+
 
 // All website pages for the footer
 export const footerPages = [
