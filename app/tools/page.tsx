@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Header } from "@/components/landing/Header";
 import { Footer } from "@/components/landing/Footer";
 import { FinalCTA } from "@/components/landing/FinalCTA";
-import { Calculator, QrCode, Sparkles, ArrowRight, Star, ShieldCheck, CheckCircle2, Box, Scale } from "lucide-react";
+import { Calculator, QrCode, Sparkles, ArrowRight, Star, ShieldCheck, CheckCircle2, Box, Scale, Factory } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Free B2B & Google Business Growth Tools | EnquiryBazaar",
@@ -25,13 +25,13 @@ export const metadata: Metadata = {
 export default function ToolsIndexPage() {
   const tools = [
     {
-      title: "Google Review Rating Calculator",
+      title: "Manufacturing Cost Calculator",
       description:
-        "Find out exactly how many consecutive 5-star reviews you need to increase your Google rating (e.g., from 3.4 to 4.9). Features milestone roadmaps, bad review risk analysis, and timeline forecasts.",
-      href: "/tools/gmb-rating-calculator",
-      badge: "Reputation & SEO",
-      icon: Calculator,
-      stats: "Calculates in 1 second",
+        "Know your true cost per unit. Add up raw materials with scrap buffer, operator wages, machine wear, rent share, packaging, and calculate suggested selling price with GST.",
+      href: "/tools/manufacturing-cost-calculator",
+      badge: "Factory & Costing",
+      icon: Factory,
+      stats: "COGS & Profit Margins",
     },
     {
       title: "Wholesale MOQ & Landed Price Calculator",
