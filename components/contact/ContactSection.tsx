@@ -19,9 +19,22 @@ export function ContactSection() {
     city: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.phone) return;
+
+    try {
+      await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          source: "Contact Page Form"
+        }),
+      });
+    } catch (err) {
+      console.error("Failed to submit to API:", err);
+    }
 
     // Trigger WhatsApp with the formatted discovery details
     const text = encodeURIComponent(

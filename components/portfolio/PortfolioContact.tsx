@@ -14,8 +14,22 @@ export function PortfolioContact() {
     details: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    try {
+      await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          source: "Portfolio Contact Form"
+        }),
+      });
+    } catch (err) {
+      console.error("Failed to submit to API:", err);
+    }
+
     const message = `Hii Enquiry Bazaar, I submitted the strategy call form.\n\nName: ${formData.name}\nService: ${formData.service}\nPreferred Date: ${formData.date}\nDetails: ${formData.details || "N/A"}`;
     window.open(`https://wa.me/918887048276?text=${encodeURIComponent(message)}`, "_blank");
   };
