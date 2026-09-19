@@ -52,9 +52,12 @@ export function AboutHero() {
 
         {/* Main Headline (Simple Everyday English) */}
         <div className="mt-4 text-center max-w-3xl mx-auto">
-          <h1 className={`text-2xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-[2.65rem] leading-[1.2] ${montserrat.className}`}>
-            Helping Indian Manufacturers Get <span className="text-[#FE5905]">Direct Bulk Orders</span> Without Middlemen.
+          <h1 className={`text-3xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl leading-[1.2] ${montserrat.className}`}>
+            About EnquiryBazaar
           </h1>
+          <p className="mt-6 text-xl sm:text-2xl font-semibold text-[#FE5905]">
+            Helping Indian Manufacturers Get Direct Bulk Orders Without Middlemen.
+          </p>
 
           <p className="mt-4 text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl mx-auto font-normal">
             EnquiryBazaar is India&apos;s dedicated digital growth partner for factory owners, manufacturers, and B2B suppliers. We build and manage your Google #1 ranking, factory catalog website, and targeted B2B ads so buyers call you directly - without price wars on IndiaMART or Justdial.

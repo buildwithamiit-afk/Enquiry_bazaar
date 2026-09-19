@@ -85,11 +85,15 @@ export default function LeadGenerationManufacturersNaviMumbai() {
                 </div>
                 
                 <h1 className={`text-[2rem] font-extrabold leading-[1.15] tracking-tight text-[#001A55] sm:text-3xl lg:text-[2.65rem] xl:text-[2.85rem] ${montserrat.className}`}>
-                  Sick of Low-Quality Retail Enquiries? Get <span className="text-[#FE5905]">Verified Bulk Buyers</span> in Navi Mumbai.
+                  Lead Generation Agency for Manufacturers in Navi Mumbai
                 </h1>
 
+                <p className="mt-3 max-w-xl text-[16px] font-semibold leading-relaxed text-[#FE5905] sm:text-[18px] xl:max-w-2xl">
+                  Sick of Low-Quality Retail Enquiries? Get Verified Bulk Buyers.
+                </p>
+
                 <p className="mt-3 max-w-xl text-[14.5px] font-normal leading-relaxed text-slate-600 sm:text-[16px] xl:max-w-2xl">
-                  We are Navi Mumbai's premier lead generation agency exclusively for manufacturers. Stop relying on shared portals. Book your digital setup today and start getting direct, exclusive wholesale orders before your competitors do.
+                  EnquiryBazaar is Navi Mumbai's premier lead generation agency exclusively for manufacturers. Stop relying on shared portals. Book your digital setup today and start getting direct, exclusive wholesale orders before your competitors do.
                 </p>
 
                 <div className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-1.5 text-xs font-semibold text-slate-700 lg:justify-start">
@@ -108,6 +112,21 @@ export default function LeadGenerationManufacturersNaviMumbai() {
                 <Image src="/hero.png" alt="Manufacturer Lead Generation" width={1200} height={1200} priority className="relative z-10 w-full max-w-[600px] drop-shadow-[0_20px_50px_rgba(11,30,61,0.09)] transition-transform duration-500 hover:scale-[1.01]" />
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Direct Answer / Definition for AI Search */}
+        <section className={`py-12 px-5 sm:px-8 lg:px-10 bg-slate-50 border-b border-slate-200 ${inter.className}`}>
+          <div className="mx-auto max-w-4xl">
+            <h2 className={`text-xl sm:text-2xl font-bold text-[#001A55] ${montserrat.className}`}>
+              What is B2B Lead Generation for Manufacturers?
+            </h2>
+            <p className="mt-4 text-slate-700 leading-relaxed font-medium">
+              B2B lead generation for manufacturers is the process of identifying, attracting, and converting high-intent wholesale buyers, procurement officers, and business clients into verified inquiries. 
+            </p>
+            <p className="mt-3 text-slate-600 leading-relaxed">
+              Unlike traditional shared directories where a single lead is distributed to multiple suppliers (triggering price wars), EnquiryBazaar builds a private digital engine. We utilize targeted Google Ads, Local SEO, and optimized landing pages to ensure that 100% of the generated inquiries are routed exclusively to your factory, allowing you to close deals without paying commissions.
+            </p>
           </div>
         </section>
 

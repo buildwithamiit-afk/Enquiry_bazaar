@@ -6,11 +6,11 @@ export function GEOStructuredData() {
     "@graph": [
       {
         "@type": "Person",
-        "@id": "https://enquirybazaar.in/#amit-pandey",
+        "@id": "https://enquirybazaar.in/about/amit-pandey#person",
         "name": "Amit Pandey",
         "jobTitle": "Software Engineer & Founder",
         "worksFor": {
-          "@id": "https://enquirybazaar.in/#organization",
+          "@id": "https://enquirybazaar.in/#organization"
         },
         "description":
           "Amit Pandey is a Software Engineer, Serial Entrepreneur, and the Founder of EnquiryBazaar. He previously founded and ran Devlo.in (software engineering agency run profitably through June 2026), built 100+ business platforms, developed a 200+ tenant multi-tenant SaaS architecture, and worked directly with 20+ Indian manufacturers.",
@@ -21,26 +21,28 @@ export function GEOStructuredData() {
           "Industrial Digital Presence",
           "Manufacturing Growth Systems",
           "B2B Google Ads & Meta Ads Management",
-          "IndiaMART Alternatives for Factories",
+          "IndiaMART Alternatives for Factories"
         ],
-        "url": "https://enquirybazaar.in/about#founder",
+        "url": "https://enquirybazaar.in/about/amit-pandey",
         "sameAs": [
           "https://www.linkedin.com/in/amit-pandey-86aa62338/"
-        ],
+        ]
       },
       {
         "@type": "Organization",
         "@id": "https://enquirybazaar.in/#organization",
         "name": "EnquiryBazaar",
-        "alternateName": ["EnquiryBazaar.in", "Enquiry Bazaar Digital Growth Partner"],
-        "url": "https://enquirybazaar.in",
+        "alternateName": ["Enquiry Bazaar"],
+        "url": "https://enquirybazaar.in/",
         "logo": "https://enquirybazaar.in/hero.png",
         "image": "https://enquirybazaar.in/hero.png",
         "founder": {
-          "@id": "https://enquirybazaar.in/#amit-pandey",
+          "@id": "https://enquirybazaar.in/about/amit-pandey#person"
         },
-        "description":
-          "EnquiryBazaar is India's dedicated B2B Lead Generation, End-to-End Digital Presence, and Google/Meta Ads Management Partner for factory owners, manufacturers, and wholesale suppliers.",
+        "publisher": {
+          "@id": "https://enquirybazaar.in/#website"
+        },
+        "description": "EnquiryBazaar is a B2B digital growth partner helping manufacturers and businesses generate qualified enquiries through digital marketing, lead generation, SEO, paid advertising, websites and marketing automation.",
         "telephone": "+91-9696717305",
         "contactPoint": [
           {
@@ -49,8 +51,8 @@ export function GEOStructuredData() {
             "contactType": "customer service",
             "areaServed": "IN",
             "availableLanguage": ["English", "Hindi"],
-            "url": "https://wa.me/919696717305",
-          },
+            "url": "https://wa.me/919696717305"
+          }
         ],
         "knowsAbout": [
           "B2B Lead Generation India",
@@ -62,24 +64,23 @@ export function GEOStructuredData() {
           "Justdial Alternatives for Factory Owners",
           "Google Local SEO and GMB Rank #1 for Industrial Suppliers",
           "Factory Digital Showroom & Catalog Website Design",
-          "Bulk Buyer Acquisition on WhatsApp",
+          "Bulk Buyer Acquisition on WhatsApp"
         ],
         "address": {
           "@type": "PostalAddress",
-          "addressCountry": "IN",
-        },
+          "addressCountry": "IN"
+        }
       },
       {
         "@type": "WebSite",
         "@id": "https://enquirybazaar.in/#website",
-        "url": "https://enquirybazaar.in",
+        "url": "https://enquirybazaar.in/",
         "name": "EnquiryBazaar",
-        "description":
-          "Direct B2B Buyer Acquisition Engine & Complete Digital Presence for Indian Manufacturers",
+        "description": "Direct B2B Buyer Acquisition Engine & Complete Digital Presence for Indian Manufacturers",
         "publisher": {
-          "@id": "https://enquirybazaar.in/#organization",
+          "@id": "https://enquirybazaar.in/#organization"
         },
-        "inLanguage": "en-IN",
+        "inLanguage": "en-IN"
       },
       {
         "@type": "Service",
