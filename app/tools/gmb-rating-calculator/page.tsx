@@ -175,7 +175,7 @@ export default function GMBRatingCalculatorPage() {
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {(() => {
                 const related = blogPosts
-                  .filter((p) => p.title.toLowerCase().includes("google") || p.tags.some(t => t.toLowerCase().includes("google") || t.toLowerCase().includes("seo")))
+                  .filter((p) => p.title.toLowerCase().includes("google") || p.tags?.some(t => t.toLowerCase().includes("google") || t.toLowerCase().includes("seo")))
                   .slice(0, 3);
                 
                 // Fallback to top 3 if we don't have enough google/seo specific blogs
