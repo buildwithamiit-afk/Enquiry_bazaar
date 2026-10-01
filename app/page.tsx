@@ -10,6 +10,7 @@ import { FAQ } from "@/components/landing/FAQ";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { HomeContactSection } from "@/components/landing/HomeContactSection";
 import { Footer } from "@/components/landing/Footer";
+import { CataloguePopup } from "@/components/landing/CataloguePopup";
 
 export default function Home() {
   return (
@@ -18,16 +19,17 @@ export default function Home() {
       <main id="main-content" className="flex-1 overflow-hidden">
         <Hero />
         <DependencyProblem />
-        <GrowthBanner />
-        <Industries />
-        <TrustedBy />
         <DigitalPresenceSolution />
+        <Industries />
+        <GrowthBanner />
+        <TrustedBy />
         <PlatformComparison />
         <FAQ />
         <HomeContactSection />
         <FinalCTA />
       </main>
       <Footer />
+      <CataloguePopup />
     </>
   );
 }

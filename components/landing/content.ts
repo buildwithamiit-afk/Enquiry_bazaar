@@ -10,12 +10,9 @@ export const whatsappCta = {
 } as const;
 
 export const navItems = [
-  { label: "The Problem", href: "/#the-problem" },
-  { label: "Our 4-Step Setup", href: "/#solution" },
-  { label: "Industries", href: "/#industries" },
-  { label: "Portals vs Direct", href: "/#comparison" },
-  { label: "FAQs", href: "/#faq" },
-  { label: "Contact Us", href: "/#contact-us" },
+  { label: "How It Works", href: "/#solution" },
+  { label: "Who We Help", href: "/#industries" },
+  { label: "Why Choose Us", href: "/#comparison" },
 ] as const;
 
 

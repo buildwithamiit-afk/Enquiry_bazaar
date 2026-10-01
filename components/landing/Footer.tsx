@@ -53,7 +53,7 @@ export function Footer() {
                 <span>WhatsApp Us</span>
               </a>
               <span className="text-[12px] text-slate-400">
-                📞 Direct Helpline: <a href="tel:+916387375032" className="text-white font-semibold hover:text-[#FE5905] transition-colors">+91 6387375032</a> , <a href="tel:+919696717305" className="text-white font-semibold hover:text-[#FE5905] transition-colors">+91 96967 17305</a>
+                📞 Direct Helpline: <a href="tel:+919696717305" className="text-white font-semibold hover:text-[#FE5905] transition-colors">+91 96967 17305</a> , <a href="tel:+918887048276" className="text-white font-semibold hover:text-[#FE5905] transition-colors">+91 88870 48276</a>
               </span>
             </div>
           </div>

@@ -32,8 +32,23 @@ export function MobileMenu({ open, onNavigate }: MobileMenuProps) {
                 <li key={item.label}>
                   <Link
                     href={item.href}
-                    onClick={onNavigate}
-                    className="block rounded-xl px-3.5 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-50 hover:text-[#FE5905]"
+                    onClick={(e) => {
+                      if (item.href.startsWith("/#") && pathname === "/") {
+                        e.preventDefault();
+                        const targetId = item.href.substring(2);
+                        const elem = document.getElementById(targetId);
+                        if (elem) {
+                          const offset = 80;
+                          const bodyRect = document.body.getBoundingClientRect().top;
+                          const elementRect = elem.getBoundingClientRect().top;
+                          const elementPosition = elementRect - bodyRect;
+                          const offsetPosition = elementPosition - offset;
+                          window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+                        }
+                      }
+                      onNavigate();
+                    }}
+                    className="block rounded-xl px-3.5 py-2.5 text-[15px] font-bold text-[#001A55] transition-colors hover:bg-slate-50 hover:text-[#FE5905]"
                   >
                     {item.label}
                   </Link>
@@ -41,20 +56,7 @@ export function MobileMenu({ open, onNavigate }: MobileMenuProps) {
               ))}
             </ul>
 
-            <div className="mt-4 flex flex-col gap-2 pt-3 border-t border-slate-100">
-              <a
-                href={whatsappCta.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={onNavigate}
-                className="flex items-center justify-center gap-2.5 rounded-xl border border-emerald-500/30 bg-emerald-50 py-3 text-xs sm:text-sm font-bold text-emerald-800 transition hover:bg-emerald-100 active:scale-95"
-              >
-                <WhatsAppIcon className="h-5.5 w-5.5 shrink-0" />
-                <span>Chat on WhatsApp</span>
-              </a>
 
-              <PrimaryCTA className="w-full" compact onClick={onNavigate} />
-            </div>
           </nav>
         </div>
       </div>
