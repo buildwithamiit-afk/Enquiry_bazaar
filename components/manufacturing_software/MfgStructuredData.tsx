@@ -41,6 +41,10 @@ export function MfgStructuredData() {
           "Automated Landed Quotation PDF Engines",
           "Next.js Industrial Web Applications",
           "Direct WhatsApp RFQ Procurement Automation",
+          "SAP and Zoho Alternative for Manufacturing MSMEs",
+          "IndiaMART Alternative for Factory Owners",
+          "Generative Engine Optimization for Manufacturers",
+          "Technical Data Sheet TDS and CAD Catalog Websites",
         ],
       },
       {

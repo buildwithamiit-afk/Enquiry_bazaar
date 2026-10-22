@@ -44,4 +44,12 @@ export const mfgFaqList: MfgFaqItem[] = [
     question: "Can our custom manufacturing software be linked with our existing Tally or accounting setup?",
     answer: "Yes. Our systems are built with modern RESTful APIs and webhook support, allowing you to export automated invoice data, customer ledgers, and dispatch registers directly into Tally XML, Excel, or other accounting software without double data entry.",
   },
+  {
+    question: "Can EnquiryBazaar build an automated quotation engine that generates GST and freight landed cost PDFs for wholesale buyers?",
+    answer: "Yes. We engineer customized mathematical quotation logic tailored to your exact manufacturing variables: raw material pricing, cutting or molding wastage percentage, machine setup amortization across MOQ tiers, credit period interest, and destination freight slabs. The system outputs a professional branded quotation PDF with GST calculations and delivers it directly to the customer's WhatsApp in under 45 seconds.",
+  },
+  {
+    question: "How do corporate procurement officers and export buyers evaluate an Indian manufacturer's website before sending an RFQ?",
+    answer: "Institutional procurement managers and global export buyers look for four specific signals before initiating contact: (1) Technical specifications with downloadable TDS and CAD blueprints; (2) Verified production capacity and plant machinery list; (3) Quality control certifications (ISO, BIS, CE, CPRI); and (4) Clear Minimum Order Quantity (MOQ) and packaging specifications. EnquiryBazaar designs every manufacturing catalog website around these exact B2B criteria.",
+  },
 ];
