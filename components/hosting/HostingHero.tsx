@@ -29,7 +29,7 @@ export function HostingHero({ onOpenBooking }: HostingHeroProps) {
         <div className="flex justify-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-950/60 px-3.5 py-1.5 text-xs font-semibold text-emerald-300 shadow-sm backdrop-blur-md sm:text-sm">
             <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>Verified Hostinger Referral Deals &amp; Discounts — 2026</span>
+            <span>Verified Hostinger Referral Deals &amp; Discounts (2026)</span>
           </div>
         </div>
 

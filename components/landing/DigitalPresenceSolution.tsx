@@ -80,7 +80,7 @@ export function DigitalPresenceSolution() {
           {/* Continuous Vertical Line */}
           <div className="absolute left-[24px] lg:left-1/2 top-4 bottom-12 w-[2px] bg-gradient-to-b from-slate-200 via-slate-300 to-transparent lg:-translate-x-1/2 z-0"></div>
 
-          {/* 01 — THEY SEARCH */}
+          {/* 01: THEY SEARCH */}
           <div className="relative z-10 flex flex-col lg:flex-row items-center mb-20 lg:mb-24">
             <div className="lg:hidden absolute left-[24px] top-1.5 h-4 w-4 rounded-full bg-white border-[4px] border-[#FE5905] -translate-x-1/2 z-20 shadow-sm"></div>
             
@@ -162,7 +162,7 @@ export function DigitalPresenceSolution() {
             </div>
           </div>
 
-          {/* 02 — THEY CHECK YOU */}
+          {/* 02: THEY CHECK YOU */}
           <div className="relative z-10 flex flex-col lg:flex-row-reverse items-center mb-20 lg:mb-24">
             <div className="lg:hidden absolute left-[24px] top-1.5 h-4 w-4 rounded-full bg-white border-[4px] border-[#FE5905] -translate-x-1/2 z-20 shadow-sm"></div>
             
@@ -243,7 +243,7 @@ export function DigitalPresenceSolution() {
             </div>
           </div>
 
-          {/* 03 — THEY ENQUIRE */}
+          {/* 03: THEY ENQUIRE */}
           <div className="relative z-10 flex flex-col lg:flex-row items-center mb-20 lg:mb-24">
             <div className="lg:hidden absolute left-[24px] top-1.5 h-4 w-4 rounded-full bg-white border-[4px] border-[#FE5905] -translate-x-1/2 z-20 shadow-md"></div>
             
@@ -294,7 +294,7 @@ export function DigitalPresenceSolution() {
             </div>
           </div>
 
-          {/* 04 — YOU DON'T LOSE THE ENQUIRY */}
+          {/* 04: YOU DON'T LOSE THE ENQUIRY */}
           <div className="relative z-10 flex flex-col lg:flex-row-reverse items-center mb-20 lg:mb-24">
             <div className="lg:hidden absolute left-[24px] top-1.5 h-4 w-4 rounded-full bg-white border-[4px] border-[#FE5905] -translate-x-1/2 z-20 shadow-md"></div>
             
@@ -379,7 +379,7 @@ export function DigitalPresenceSolution() {
             </div>
           </div>
 
-          {/* 05 — DASHBOARD POLISH */}
+          {/* 05: DASHBOARD POLISH */}
           <div className="relative z-10 flex flex-col lg:flex-row items-center mb-12">
             <div className="lg:hidden absolute left-[24px] top-1.5 h-4 w-4 rounded-full bg-white border-[4px] border-[#FE5905] -translate-x-1/2 z-20 shadow-md"></div>
             

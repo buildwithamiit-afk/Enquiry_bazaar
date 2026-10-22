@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { ArrowRight, CheckCircle2, ShieldCheck, Factory, Cpu, Layers } from "lucide-react";
+import { ArrowRight, CheckCircle2, ShieldCheck, Factory, Cpu, Zap, Clock } from "lucide-react";
 
 export function MfgHero() {
   const scrollToSection = (id: string) => {
@@ -15,7 +15,7 @@ export function MfgHero() {
     <section className="relative isolate overflow-hidden bg-white pt-12 pb-16 sm:pt-16 sm:pb-24">
       {/* Background radial gradient */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 h-[420px] w-[900px] rounded-full bg-[radial-gradient(ellipse_at_top,rgba(254,89,5,0.06),transparent_70%)] blur-3xl" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 h-[420px] w-[950px] rounded-full bg-[radial-gradient(ellipse_at_top,rgba(254,89,5,0.06),transparent_70%)] blur-3xl" />
         <div
           className="absolute inset-0 opacity-[0.025]"
           style={{
@@ -31,37 +31,37 @@ export function MfgHero() {
           {/* Left Column: Heading, Subheading & CTAs */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
             
-            <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 text-xs font-semibold text-slate-700 shadow-2xs">
-              <Factory className="h-3.5 w-3.5 text-[#FE5905]" />
-              <span>Technology Partner For Manufacturing MSMEs &amp; Enterprises</span>
+            <div className="inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50/80 px-3.5 py-1.5 text-xs font-semibold text-[#FE5905] shadow-2xs">
+              <Factory className="h-3.5 w-3.5" />
+              <span>Dedicated Technology Partner for Manufacturers</span>
             </div>
 
-            <h1 className="mt-4 text-3xl font-bold tracking-tight text-[#001A55] sm:text-4xl md:text-5xl lg:text-[46px] leading-tight">
-              Custom Software &amp; Digital Presence Engineered for{" "}
-              <span className="text-[#FE5905]">Manufacturers</span>
+            <h1 className="mt-4 text-3xl font-bold tracking-tight text-[#001A55] sm:text-4xl md:text-5xl lg:text-[48px] leading-tight">
+              Software, Websites &amp; Landing Pages Built for{" "}
+              <span className="text-[#FE5905]">Factory Growth</span>
             </h1>
 
             <p className="mt-4 text-base sm:text-lg leading-relaxed text-slate-600 max-w-2xl">
-              We build custom production workflow software, interactive catalog websites, and B2B product landing pages designed specifically for factory operations and wholesale buyers.
+              Stop losing high-margin procurement contracts to slow quotation cycles or outdated websites. We build custom factory ERPs, digital technical catalogs, and high-converting B2B landing pages that bring serious wholesale buyers directly to your sales desk.
             </p>
 
-            {/* 3 Core Points */}
+            {/* Core Value Props (Zero em-dashes) */}
             <div className="mt-6 space-y-2.5 text-sm text-slate-700">
               <div className="flex items-center gap-2.5">
                 <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                <span><strong>100% Code &amp; Data Ownership:</strong> Full handover with zero monthly software lock-ins.</span>
+                <span><strong>100% Code &amp; Data Ownership:</strong> Full source code handover with zero monthly software penalties.</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                <span><strong>Direct Wholesale Inquiries:</strong> Inbound RFQs routed directly to your sales team and WhatsApp.</span>
+                <span><strong>Instant 45-Second Quotations:</strong> Auto-calculate raw material, wastage, and freight with branded GST PDFs.</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <CheckCircle2 className="h-4 w-4 text-emerald-600 shrink-0" />
-                <span><strong>Modern Engineering:</strong> Fast, responsive Next.js frontend with PostgreSQL backend.</span>
+                <span><strong>Direct Bulk Buyer Inquiries:</strong> Inbound RFQs land straight on your sales WhatsApp with 0% commission.</span>
               </div>
             </div>
 
-            {/* CTA Buttons */}
+            {/* Action CTA Buttons */}
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <button
                 onClick={() => scrollToSection("contact-section")}
@@ -107,12 +107,12 @@ export function MfgHero() {
                   <span className="h-2.5 w-2.5 rounded-full bg-slate-300" />
                   <span className="ml-2 text-xs font-medium text-slate-400">factory-portal.app</span>
                 </div>
-                <span className="rounded-md bg-slate-100 px-2 py-0.5 text-[11px] font-medium text-slate-600">
-                  Custom Factory OS
+                <span className="rounded-md bg-emerald-50 px-2.5 py-0.5 text-[11px] font-semibold text-emerald-700 border border-emerald-100">
+                  Live Production OS
                 </span>
               </div>
 
-              {/* Clean Metric Overview */}
+              {/* Metric Overview */}
               <div className="mt-4 grid grid-cols-2 gap-3">
                 <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                   <span className="text-xs font-medium text-slate-500">Active Production Batches</span>
@@ -121,8 +121,8 @@ export function MfgHero() {
                 </div>
 
                 <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
-                  <span className="text-xs font-medium text-slate-500">Automated Quotations</span>
-                  <div className="mt-1 text-xl font-bold text-slate-900">45 Sec</div>
+                  <span className="text-xs font-medium text-slate-500">Quotation Speed</span>
+                  <div className="mt-1 text-xl font-bold text-slate-900">45 Seconds</div>
                   <span className="text-[11px] text-slate-500">GST Landed PDF</span>
                 </div>
               </div>
@@ -130,15 +130,15 @@ export function MfgHero() {
               {/* Sample Inbound Order Card */}
               <div className="mt-3.5 rounded-xl border border-slate-200 bg-white p-3.5">
                 <div className="flex items-center justify-between text-xs font-medium text-slate-500">
-                  <span>Recent Wholesale RFQ</span>
-                  <span className="text-emerald-600 font-semibold">Verified Company</span>
+                  <span>Verified Corporate RFQ</span>
+                  <span className="text-emerald-600 font-semibold">Wholesale Contract</span>
                 </div>
                 <div className="mt-2 text-sm font-semibold text-slate-900">
-                  Precision Turned Flanges (SS 316)
+                  Precision Turned Flanges (SS 316L)
                 </div>
                 <div className="mt-1 text-xs text-slate-600 flex justify-between">
-                  <span>Quantity: 5,000 Units</span>
-                  <span>Delivery: Maharashtra</span>
+                  <span>Volume: 5,000 Units / Month</span>
+                  <span>Destination: Maharashtra</span>
                 </div>
               </div>
 
@@ -153,7 +153,7 @@ export function MfgHero() {
               {/* Ownership Guarantee */}
               <div className="mt-4 flex items-center gap-2 rounded-lg bg-emerald-50 px-3 py-2 text-xs font-medium text-emerald-800">
                 <ShieldCheck className="h-4 w-4 text-emerald-600 shrink-0" />
-                <span>You own 100% of your source code and customer data.</span>
+                <span>You own 100% of your source code, database, and client data.</span>
               </div>
 
             </div>

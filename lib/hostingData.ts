@@ -205,7 +205,7 @@ export const hostingPlans: HostingPlan[] = [
     id: "ai-builder",
     name: "Hostinger AI Website Builder",
     subtitle: "Build responsive sites in 60 seconds with AI",
-    description: "From corporate sites and portfolios to landing pages and e-commerce stores — just answer 3 questions and AI generates the entire site + copy.",
+    description: "From corporate sites and portfolios to landing pages and e-commerce stores: just answer 3 questions and AI generates the entire site + copy.",
     badge: "New",
     category: "ai-tools",
     discountBadge: "Up to 75% OFF + AI Tools",

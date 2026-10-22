@@ -263,7 +263,7 @@ export default function LeadGenerationManufacturersNaviMumbai() {
               What Happens After a Buyer Enquires?
             </h2>
             <p className="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
-              Speed is critical in B2B transactions. When a wholesale buyer submits a requirement on your landing page, the details—including product specifications, expected quantity, and their company name—are instantly routed directly to your WhatsApp or email. You retain complete ownership of the conversation and can begin your sales follow-up immediately.
+              Speed is critical in B2B transactions. When a wholesale buyer submits a requirement on your landing page, the details (including product specifications, expected quantity, and their company name) are instantly routed directly to your WhatsApp or email. You retain complete ownership of the conversation and can begin your sales follow-up immediately.
             </p>
           </div>
         </section>

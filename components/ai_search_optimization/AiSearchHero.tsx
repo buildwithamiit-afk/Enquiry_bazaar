@@ -43,7 +43,7 @@ export function AiSearchHero() {
             </h1>
 
             <p className="mt-4 text-base sm:text-lg leading-relaxed text-slate-600 max-w-2xl">
-              When high-value prospective buyers ask AI tools: <em>&quot;Who is the best company for your product or service?&quot;</em> — does AI recommend your brand, or are your competitors getting all the citations? We optimize your digital presence so AI search engines cite, summarize, and recommend you first.
+              When high-value prospective buyers ask AI tools: <em className="text-slate-800 font-medium">&quot;Who is the best company for your product or service?&quot;</em>, does AI recommend your brand or your competitors? We optimize your digital presence so AI search engines cite, summarize, and recommend you first.
             </p>
 
             {/* Core Value Props */}

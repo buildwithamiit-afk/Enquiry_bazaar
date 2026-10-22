@@ -29,10 +29,10 @@ export function MfgPillars() {
             <span>What We Build</span>
           </div>
           <h2 className="mt-3 text-2xl font-bold text-[#001A55] sm:text-3xl lg:text-4xl">
-            Technology Tailored to Factory Operations
+            3 Core Digital Systems Built Exclusively for Factory Owners
           </h2>
           <p className="mt-3 text-base text-slate-600">
-            From internal factory management to outward-facing B2B customer catalogs, we build systems designed for your exact manufacturing workflows.
+            Whether you need to streamline plant production, showcase technical specs to export buyers, or generate verified bulk inquiries, we build systems mapped to your exact workflows.
           </p>
         </div>
 
@@ -87,31 +87,31 @@ export function MfgPillars() {
                 
                 <div className="lg:col-span-7 space-y-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-[#001A55]">
-                    Custom ERP, Production Tracking &amp; Quotation Software
+                    Custom Production Tracking, Quoting &amp; Inventory Software
                   </h3>
 
                   <p className="text-sm sm:text-base leading-relaxed text-slate-600">
-                    Standard accounting packages and spreadsheets struggle with complex batch production, cutting wastage, and custom job cards. We build lightweight, private web-based software mapped to your factory floor.
+                    Standard spreadsheets crash, job cards get misplaced, and raw material margins leak undetected. We engineer clean, web-based production systems that factory supervisors can easily run from a phone, tablet, or desktop.
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <Zap className="h-4 w-4 text-[#FE5905]" />
-                        <span>Automated Quotations</span>
+                        <span>Instant Landed Quotations</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Input raw material specs, setup costs, and freight to instantly generate branded PDF quotations with GST.
+                        Input raw material rates, wastage margins, and machine hours to generate branded GST PDF quotes in under 45 seconds.
                       </p>
                     </div>
 
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <Layers className="h-4 w-4 text-[#FE5905]" />
-                        <span>Inventory &amp; Batch Tracking</span>
+                        <span>Job Cards &amp; Batch Yield</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Track raw materials, work-in-progress job cards, and finished goods inventory with re-order notifications.
+                        Track raw material reels/sheets, work-in-progress assembly stages, and finished goods with real-time scrap alerts.
                       </p>
                     </div>
 
@@ -121,17 +121,17 @@ export function MfgPillars() {
                         <span>Distributor &amp; Dealer Portal</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Provide B2B distributors a secure login to review negotiated rate cards, place purchase orders, and track dispatches.
+                        Give wholesale distributors a private login to check live stock, order repeat batches at their contracted pricing, and track dispatch status.
                       </p>
                     </div>
 
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <Lock className="h-4 w-4 text-[#FE5905]" />
-                        <span>Complete Data Privacy</span>
+                        <span>Full Code &amp; Data Ownership</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Self-hosted on your private cloud or servers with full database and source code ownership.
+                        Deployed on your private server or cloud with full database backups. No recurring user fees or per-seat software charges.
                       </p>
                     </div>
                   </div>
@@ -141,7 +141,7 @@ export function MfgPillars() {
                       href="#contact-section"
                       className="inline-flex items-center gap-2 rounded-xl bg-[#001A55] px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-[#002882]"
                     >
-                      <span>Discuss Your Software Requirements</span>
+                      <span>Discuss Your Factory Software Requirements</span>
                       <ArrowRight className="h-4 w-4" />
                     </a>
                   </div>
@@ -189,51 +189,51 @@ export function MfgPillars() {
                 
                 <div className="lg:col-span-7 space-y-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-[#001A55]">
-                    Technical Catalog Websites for B2B &amp; Export Buyers
+                    High-Speed Technical Catalog Websites for B2B &amp; Export Procurement
                   </h3>
 
                   <p className="text-sm sm:text-base leading-relaxed text-slate-600">
-                    Corporate procurement officers and export clients need technical clarity before initiating an RFQ. We build fast, mobile-ready catalog websites that showcase your plant capacity, equipment list, and product technical specifications.
+                    Corporate procurement heads and export buyers do not buy from slow, generic brochure websites. They look for plant capacity, machine lists, CAD drawings, and ISO test certificates before initiating an inquiry.
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <FileText className="h-4 w-4 text-[#FE5905]" />
-                        <span>Technical Data Sheets (TDS)</span>
+                        <span>Technical Data Sheets (TDS) &amp; CAD</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Allow engineers and purchase managers to download technical specifications, CAD drawings, and ISO test certificates.
+                        Let procurement engineers download technical specifications, tolerance sheets, and BIS/ISO certificates in 1 click.
                       </p>
                     </div>
 
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <Zap className="h-4 w-4 text-[#FE5905]" />
-                        <span>High-Speed Performance</span>
+                        <span>Sub-Second Mobile Performance</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Built on modern Next.js for sub-second loading speeds on mobile networks and global export regions.
+                        Built on modern Next.js so your catalog opens instantly for international buyers and mobile visitors with zero lag.
                       </p>
                     </div>
 
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <Smartphone className="h-4 w-4 text-[#FE5905]" />
-                        <span>Direct WhatsApp RFQ Triggers</span>
+                        <span>Instant WhatsApp RFQ Triggers</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Every product SKU connects to WhatsApp with pre-filled product name and quantity requirements.
+                        Every product SKU has a direct WhatsApp quote trigger with pre-filled product name and quantity requirements.
                       </p>
                     </div>
 
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <ShieldCheck className="h-4 w-4 text-[#FE5905]" />
-                        <span>Plant Trust Proof</span>
+                        <span>Plant Machinery &amp; QC Proof</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Highlight plant machinery, testing laboratories, quality control procedures, and certifications.
+                        Showcase your actual CNC machines, testing laboratories, and plant infrastructure to build unshakeable buyer trust.
                       </p>
                     </div>
                   </div>
@@ -243,7 +243,7 @@ export function MfgPillars() {
                       href="#contact-section"
                       className="inline-flex items-center gap-2 rounded-xl bg-[#FE5905] px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-[#ff6f26]"
                     >
-                      <span>Plan Your Factory Website</span>
+                      <span>Plan Your Technical Factory Website</span>
                       <ArrowRight className="h-4 w-4" />
                     </a>
                   </div>
@@ -285,51 +285,51 @@ export function MfgPillars() {
                 
                 <div className="lg:col-span-7 space-y-4">
                   <h3 className="text-xl sm:text-2xl font-bold text-[#001A55]">
-                    B2B Landing Pages with Wholesale Qualification Forms
+                    High-Converting B2B Landing Pages with Wholesale Qualification Filters
                   </h3>
 
                   <p className="text-sm sm:text-base leading-relaxed text-slate-600">
-                    If you run Google Ads or promotional campaigns, standard contact forms often invite non-serious retail inquiries. We design landing pages with mandatory business qualification fields so your sales team only focuses on bulk buyers.
+                    Tired of spending money on ads only to get retail calls asking for 1 single piece? We build landing pages with strict negative-filtering forms that eliminate consumer shoppers and deliver verified wholesale purchase orders directly to your sales team.
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <Filter className="h-4 w-4 text-[#FE5905]" />
-                        <span>Minimum Order Quantity (MOQ) Fields</span>
+                        <span>Minimum Order Quantity (MOQ) Filtering</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Inquiries require business buyers to select their volume and delivery timeline before submission.
+                        Mandatory bulk quantity selectors ensure retail buyers cannot submit inquiries, saving your sales team hours.
                       </p>
                     </div>
 
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <ShieldCheck className="h-4 w-4 text-[#FE5905]" />
-                        <span>Exclusive Lead Routing</span>
+                        <span>100% Exclusive Inbound Leads</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Leads are private to your business and directly sent to your sales CRM and WhatsApp without competitor sharing.
+                        Every buyer inquiry routes directly to your sales WhatsApp and CRM. No broker middleman, no sharing with 10 competitors.
                       </p>
                     </div>
 
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <Zap className="h-4 w-4 text-[#FE5905]" />
-                        <span>Instant Alerts</span>
+                        <span>Instant WhatsApp Lead Routing</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        Instant notification via WhatsApp and email so your sales team can respond to procurement heads within minutes.
+                        Receive immediate alerts the moment a plant manager or purchase head submits an RFQ so you can quote within minutes.
                       </p>
                     </div>
 
                     <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-3.5">
                       <div className="font-semibold text-slate-900 text-sm flex items-center gap-2">
                         <Lock className="h-4 w-4 text-[#FE5905]" />
-                        <span>0% Commission</span>
+                        <span>0% Sales Commission</span>
                       </div>
                       <p className="mt-1 text-xs text-slate-600">
-                        You pay standard agency or development fees. All closed contracts and purchase orders are 100% yours.
+                        You keep 100% of your order margins. We charge standard development fees with zero percentage cut on your deals.
                       </p>
                     </div>
                   </div>
@@ -339,7 +339,7 @@ export function MfgPillars() {
                       href="#contact-section"
                       className="inline-flex items-center gap-2 rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-emerald-700"
                     >
-                      <span>Build a B2B Landing Page</span>
+                      <span>Build a Wholesale B2B Landing Page</span>
                       <ArrowRight className="h-4 w-4" />
                     </a>
                   </div>

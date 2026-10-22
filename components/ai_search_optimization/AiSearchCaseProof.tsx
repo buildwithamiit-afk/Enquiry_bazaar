@@ -44,7 +44,7 @@ export function AiSearchCaseProof() {
             Live AI Recommendation Proof
           </h2>
           <p className="mt-3 text-base text-slate-600">
-            We don&apos;t just sell AI optimization theories — we actively use these exact architecture standards to get our own platforms cited across Perplexity and ChatGPT.
+            We do not just teach AI optimization theories. We actively use these exact architecture standards to get our own platforms cited across Perplexity and ChatGPT.
           </p>
         </div>
 
