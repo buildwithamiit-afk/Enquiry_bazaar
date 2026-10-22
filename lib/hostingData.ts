@@ -1,0 +1,366 @@
+export interface HostingPlan {
+  id: string;
+  name: string;
+  subtitle: string;
+  description: string;
+  badge?: "Trending" | "New" | "Most Popular" | "Best Value" | "Developer Choice";
+  category: "web-email" | "cloud-agency" | "vps-dev" | "ai-tools" | "bundles";
+  discountBadge: string;
+  startingPriceINR: string;
+  startingPriceUSD: string;
+  renewalPriceINR?: string;
+  freeDomain: boolean;
+  freeEmail: string;
+  couponCode: string;
+  // User can paste their exact plan-specific referral link from Hostinger dashboard
+  referralLink: string;
+  features: string[];
+  bestFor: string;
+  highlightEmail?: boolean;
+}
+
+export const DEFAULT_COUPON_CODE = "ENQUIRYBAZAAR";
+
+// User can easily replace these referral links with their exact dashboard links
+export const hostingPlans: HostingPlan[] = [
+  {
+    id: "web-hosting",
+    name: "Web Hosting",
+    subtitle: "Everything you need to launch a website",
+    description: "Ideal for small businesses, blogs, and portfolio sites. Includes 100 free professional email addresses, free domain, and automated migrations.",
+    badge: "Trending",
+    category: "web-email",
+    discountBadge: "Up to 75% OFF + 20% Extra",
+    startingPriceINR: "₹149/mo",
+    startingPriceUSD: "$2.99/mo",
+    renewalPriceINR: "₹249/mo",
+    freeDomain: true,
+    freeEmail: "100 Free Business Emails per domain",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/web-hosting?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "100 Websites & 100 GB SSD / NVMe Storage",
+      "Free Custom Domain (.com / .in / .net) for 1st Year",
+      "100 Free Domain-Based Business Emails",
+      "Free Unlimited SSL Security Certificates",
+      "Weekly / Daily Automatic Backups",
+      "Free 1-Click WordPress & Automated Migration",
+      "Free 15-Min Developer DNS & Email Setup Help",
+    ],
+    bestFor: "Small businesses, blogs, portfolios & startups seeking cheap hosting + free official email",
+    highlightEmail: true,
+  },
+  {
+    id: "business-email",
+    name: "Business Email (Titan)",
+    subtitle: "Professional domain-based business email",
+    description: "Dedicated ad-free business inboxes with custom domain (@yourcompany.com), advanced anti-spam protection, and mobile sync.",
+    badge: "Best Value",
+    category: "web-email",
+    discountBadge: "Special Referral Deal",
+    startingPriceINR: "₹79/mo per mailbox",
+    startingPriceUSD: "$0.99/mo per mailbox",
+    freeDomain: false,
+    freeEmail: "10GB to 50GB storage per mailbox + Anti-Spam",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/business-email?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "Custom Email Address (e.g., info@yourcompany.com)",
+      "10GB / 50GB Email Storage per inbox",
+      "Advanced Spam & Virus Filter Shield",
+      "Mobile App (iOS & Android) + Webmail Client",
+      "Integrated Calendar, Contacts & Auto-responders",
+      "Save 85% compared to Google Workspace / Microsoft 365",
+      "Free 15-Min Setup Assistance to configure MX records",
+    ],
+    bestFor: "Companies looking purely for trusted corporate email without paying Google Workspace prices",
+    highlightEmail: true,
+  },
+  {
+    id: "bundle-first-website",
+    name: "First Website Bundle",
+    subtitle: "Web Hosting + Business Email + Email Marketing",
+    description: "All-in-one starter pack: High-speed web hosting, custom professional email addresses, and AI-powered Reach email marketing campaigns.",
+    badge: "New",
+    category: "bundles",
+    discountBadge: "All-in-One Bundle Deal",
+    startingPriceINR: "₹199/mo",
+    startingPriceUSD: "$3.49/mo",
+    freeDomain: true,
+    freeEmail: "Included: 100 Mailboxes + Email Marketing AI",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/web-hosting-bundle?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "Full Web Hosting Plan + Free Domain",
+      "100 Professional Business Mailboxes",
+      "Reach Email Marketing Tool with AI templates",
+      "Free SSL, Daily Backups & Cloudflare Protection",
+      "Zero technical friction: All configured in one dashboard",
+      "Free 15-Min 1-on-1 Developer Onboarding Call",
+    ],
+    bestFor: "New businesses and creators who need website + email + marketing newsletter in one package",
+    highlightEmail: true,
+  },
+  {
+    id: "cloud-hosting",
+    name: "Cloud Hosting",
+    subtitle: "Serious speed & control for high-traffic sites",
+    description: "4x faster performance with dedicated server resources, dedicated IP, high RAM, and automated daily backups for mission-critical portals.",
+    badge: "Trending",
+    category: "cloud-agency",
+    discountBadge: "Up to 68% OFF + 20% Extra",
+    startingPriceINR: "₹699/mo",
+    startingPriceUSD: "$9.99/mo",
+    renewalPriceINR: "₹1,199/mo",
+    freeDomain: true,
+    freeEmail: "300 Websites & 100 Free Business Emails",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/cloud-hosting?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "Up to 300 Websites & 200 GB NVMe Storage",
+      "3 GB to 16 GB Dedicated RAM & Up to 8 CPU Cores",
+      "Free Dedicated IP Address included",
+      "Daily Backups with 1-Click Restore",
+      "Free Domain + 100 Professional Email Accounts",
+      "Priority 24/7 VIP Technical Support",
+      "Free 15-Min Cloud Migration & Architecture Advice",
+    ],
+    bestFor: "High-traffic WordPress e-commerce, busy WooCommerce stores & growth businesses",
+  },
+  {
+    id: "vps-hosting",
+    name: "VPS Hosting (KVM)",
+    subtitle: "Virtual Private Server with AMD EPYC Power",
+    description: "Full root access virtual servers powered by AMD EPYC processors and NVMe storage. Built for Next.js, Node.js, Python, and Docker developers.",
+    badge: "Developer Choice",
+    category: "vps-dev",
+    discountBadge: "Up to 60% OFF + Extra Code",
+    startingPriceINR: "₹449/mo",
+    startingPriceUSD: "$5.99/mo",
+    freeDomain: false,
+    freeEmail: "Host unlimited self-hosted mail servers or configure SMTP",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/vps-hosting?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "1 to 8 vCPU Cores (AMD EPYC) & 4 GB to 32 GB RAM",
+      "50 GB to 400 GB Ultra-Fast NVMe Disk Space",
+      "Full Root Access with Ubuntu, Debian, CentOS, AlmaLinux",
+      "Pre-configured Docker, Node.js, CyberPanel & cPanel templates",
+      "Dedicated IPv4 & IPv6 with AI Server Assistant",
+      "Snapshot Backups & Weekly Auto Backups",
+      "Free 15-Min Consultation: Node.js, Next.js & PM2 deployment roadmap",
+    ],
+    bestFor: "Developers, software engineers, and startups deploying Next.js, Node.js, and custom APIs",
+  },
+  {
+    id: "agency-hosting",
+    name: "Agency Hosting",
+    subtitle: "Isolated environments & client access",
+    description: "Engineered for web agencies and freelancers: client dashboard access, isolated server security, white-label options, and high profit margins.",
+    badge: "New",
+    category: "cloud-agency",
+    discountBadge: "Agency Special Deal",
+    startingPriceINR: "₹1,299/mo",
+    startingPriceUSD: "$19.99/mo",
+    freeDomain: true,
+    freeEmail: "Isolated Business Emails for Every Client",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/agency-hosting?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "Client Access Management (Per-Site Dashboard Permissions)",
+      "Isolated Server Environments (Zero Cross-Site Contamination)",
+      "High Resource Allocation per website",
+      "Automated WordPress & Staging Environments",
+      "Free SSL, Daily Backups & Malware Scanner",
+      "Free 15-Min Agency Infrastructure Setup Consultation",
+    ],
+    bestFor: "Digital agencies, freelance web developers, and IT consultancies managing 10+ client websites",
+  },
+  {
+    id: "bundle-larger-businesses",
+    name: "For Larger Businesses Bundle",
+    subtitle: "Cloud Hosting + Business Email + Reach Marketing",
+    description: "Full enterprise horsepower: high-performance cloud hosting, dedicated corporate emails, and automated AI email marketing in one bundled price.",
+    badge: "New",
+    category: "bundles",
+    discountBadge: "Enterprise Bundle Savings",
+    startingPriceINR: "₹899/mo",
+    startingPriceUSD: "$14.99/mo",
+    freeDomain: true,
+    freeEmail: "Premium Enterprise Email + Marketing Suite",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/cloud-bundle?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "Dedicated Cloud Resources + Dedicated IP",
+      "Unlimited Free SSL + Free Domain Registration",
+      "Enterprise Grade Domain-Based Business Email",
+      "Reach AI Email Marketing with High Inbox Deliverability",
+      "Daily Automated Backups with 1-Click Recovery",
+      "Free 15-Min Migration & Production Readiness Consultation",
+    ],
+    bestFor: "Growing SMEs and mid-sized companies wanting speed, professional emails, and newsletter automation",
+    highlightEmail: true,
+  },
+  {
+    id: "ai-builder",
+    name: "Hostinger AI Website Builder",
+    subtitle: "Build responsive sites in 60 seconds with AI",
+    description: "From corporate sites and portfolios to landing pages and e-commerce stores — just answer 3 questions and AI generates the entire site + copy.",
+    badge: "New",
+    category: "ai-tools",
+    discountBadge: "Up to 75% OFF + AI Tools",
+    startingPriceINR: "₹149/mo",
+    startingPriceUSD: "$2.99/mo",
+    freeDomain: true,
+    freeEmail: "Includes Free Domain & Free Business Email",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/ai-website-builder?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "AI Site Generator (Text, Images, Layouts in 60 seconds)",
+      "Built-in AI Copywriter, AI Heatmap & AI Logo Maker",
+      "Mobile-Optimized & 100% Responsive Design",
+      "0% Transaction Fees for E-commerce Stores",
+      "Free Custom Domain (.com / .in) + Free Business Email",
+      "Free 15-Min Developer Strategy Call to optimize conversion",
+    ],
+    bestFor: "Beginners, solopreneurs, and local business owners with zero coding knowledge",
+  },
+  {
+    id: "reach-email-marketing",
+    name: "Reach Email Marketing",
+    subtitle: "AI-Powered Email Newsletters & Campaigns",
+    description: "Create and dispatch professional email marketing campaigns with AI in minutes. High inbox delivery rates without complex configurations.",
+    badge: "New",
+    category: "ai-tools",
+    discountBadge: "Promotional Referral Price",
+    startingPriceINR: "₹249/mo",
+    startingPriceUSD: "$3.99/mo",
+    freeDomain: false,
+    freeEmail: "High-deliverability campaign sender",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/email-marketing?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "AI Email Newsletter Generator",
+      "Smart List Segmentation & Contact Management",
+      "Automated Drip Sequences & Autoresponders",
+      "Real-Time Open & Click-Through Analytics",
+      "Built-in Anti-Spam & DKIM / SPF verification",
+      "Free 15-Min Consultation on Domain Email Warmup & Deliverability",
+    ],
+    bestFor: "Businesses doing cold outreach, newsletter broadcasts, and customer engagement",
+    highlightEmail: true,
+  },
+  {
+    id: "ai-automation-apps",
+    name: "AI Automation Apps",
+    subtitle: "Personal 24/7 AI business assistants",
+    description: "Automate daily customer interactions, appointment bookings, and routine operations with intelligent assistants that go live in 60 seconds.",
+    badge: "New",
+    category: "ai-tools",
+    discountBadge: "Early Bird Discount",
+    startingPriceINR: "₹349/mo",
+    startingPriceUSD: "$4.99/mo",
+    freeDomain: false,
+    freeEmail: "Integrates with Business Email & CRM",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/ai-apps?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "24/7 Automated Customer Support & Inquiry Response",
+      "1-Click Integration with WhatsApp, Email & Webchat",
+      "Live deployment in under 60 seconds",
+      "Reduces manual administrative repetitive work by 80%",
+      "Free 15-Min Workflow Automation Strategy Call",
+    ],
+    bestFor: "Businesses wanting to automate customer queries without hiring round-the-clock staff",
+  },
+  {
+    id: "ai-agents",
+    name: "Hostinger AI Agents",
+    subtitle: "7 Ready-Made Autonomous Business Agents",
+    description: "Specialized AI agents working directly inside your Hostinger dashboard to automate SEO audits, sales copy, social media posting, and code tweaks.",
+    badge: "New",
+    category: "ai-tools",
+    discountBadge: "Exclusive AI Access",
+    startingPriceINR: "₹299/mo",
+    startingPriceUSD: "$4.49/mo",
+    freeDomain: false,
+    freeEmail: "Full integration with Hostinger tools",
+    couponCode: DEFAULT_COUPON_CODE,
+    referralLink: "https://www.hostinger.com/ai-agents?REFERRALCODE=ENQUIRYBAZAAR",
+    features: [
+      "7 Specialized AI Agents (SEO, Content, Sales, Code & Social)",
+      "Autonomous Execution directly in Hostinger cPanel",
+      "Automated Page Speed & Keyword Optimization",
+      "AI Code Bug Fixes & Snippet Generation",
+      "Free 15-Min Consultation on AI Agent Workflows",
+    ],
+    bestFor: "Solopreneurs and lean teams looking to 10x their website productivity",
+  },
+];
+
+export interface EmailComparisonRow {
+  feature: string;
+  hostinger: string;
+  googleWorkspace: string;
+  advantage: string;
+}
+
+export const emailComparisonData: EmailComparisonRow[] = [
+  {
+    feature: "Price for 5 Business Email Accounts",
+    hostinger: "₹149/mo (Included FREE with Web Hosting)",
+    googleWorkspace: "₹3,250/mo (₹650/user/mo)",
+    advantage: "Save ₹37,200+ ($450+) Every Single Year",
+  },
+  {
+    feature: "Number of Mailboxes Included",
+    hostinger: "Up to 100 Free Domain Mailboxes",
+    googleWorkspace: "Billed per individual user",
+    advantage: "Create info@, sales@, hr@, support@ for ₹0 extra",
+  },
+  {
+    feature: "Web Hosting & Website Included?",
+    hostinger: "YES (Fast SSD/NVMe Website Hosting included)",
+    googleWorkspace: "NO (Only email, website hosting costs extra)",
+    advantage: "Get both your website + email in 1 single bill",
+  },
+  {
+    feature: "Free Custom Domain Name",
+    hostinger: "YES (Free .com / .in / .net for 1st year)",
+    googleWorkspace: "NO (Domain must be bought separately)",
+    advantage: "Saves ₹800 - ₹1,200 upfront registration fee",
+  },
+  {
+    feature: "Free Developer 1-on-1 Setup Support",
+    hostinger: "YES (Free 15-min DNS & MX Setup by EnquiryBazaar)",
+    googleWorkspace: "NO (Self-service or paid IT consultant)",
+    advantage: "Never get stuck on confusing DNS records",
+  },
+];
+
+export const hostingFaqs = [
+  {
+    q: "How do I get the maximum discount on Hostinger web hosting and business email?",
+    a: "To get the absolute highest discount: 1) Click any verified plan referral link on EnquiryBazaar, 2) Choose a 48-month or 24-month term (which gives the highest base discount of up to 75%), 3) In the checkout summary, click 'Have a coupon code?' and enter ENQUIRYBAZAAR for an additional instant 7% to 20% price slash. Plus, Hostinger automatically includes a free domain name and up to 100 free professional business email addresses.",
+  },
+  {
+    q: "Does Hostinger Web Hosting include free business email accounts?",
+    a: "Yes! On Hostinger's Web Hosting (Premium and Business) and Cloud Hosting plans, you get up to 100 free professional domain-based email addresses (like contact@yourdomain.com). You can access them via mobile webmail, iOS/Android apps, or configure IMAP/POP on Apple Mail and Outlook.",
+  },
+  {
+    q: "How does Hostinger Business Email compare with Google Workspace?",
+    a: "Google Workspace costs approximately ₹650 ($6) per user per month. For a 5-person team, that totals ₹39,000+ ($450+) per year just for email inboxes. In comparison, Hostinger Web Hosting costs only ₹149/month total and gives you up to 100 free mailboxes PLUS complete website hosting and a free domain. That represents over 85% annual cash savings.",
+  },
+  {
+    q: "What is the Free 15-Minute Developer Consultation offered by EnquiryBazaar?",
+    a: "Most people get stuck choosing between Shared, Cloud, or VPS hosting, or face errors while pointing DNS A-records, MX records for email, and installing SSL. When you use our verified referral link or coupon code, EnquiryBazaar offers a free 15-minute 1-on-1 developer consultation via Google Meet or WhatsApp call to review your architecture, verify your DNS, and ensure your site and email go live smoothly.",
+  },
+  {
+    q: "Can I host Next.js, Node.js, or Docker on Hostinger?",
+    a: "Yes! For Node.js, Next.js, Python, or Docker applications, choose Hostinger VPS Hosting (KVM). It provides full root access, dedicated IPv4/IPv6, and AMD EPYC processors. You can deploy using PM2, Nginx reverse proxy, and SSL certificates. Our team provides free architectural advice if you need help planning your deployment.",
+  },
+  {
+    q: "Does Hostinger offer a money-back guarantee?",
+    a: "Yes, Hostinger provides a 30-day no-questions-asked money-back guarantee on all hosting plans. If you are not completely satisfied for any reason, you can cancel within 30 days for a full refund.",
+  },
+];

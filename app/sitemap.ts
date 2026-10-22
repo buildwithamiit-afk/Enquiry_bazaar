@@ -38,6 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...blogEntries,
     {
+      url: `${baseUrl}/hosting`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
+    {
       url: `${baseUrl}/tools`,
       lastModified: new Date(),
       changeFrequency: "weekly",
@@ -138,6 +144,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/custom-software-and-website-development-for-manufacturers`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.98,
     },
   ];
 }

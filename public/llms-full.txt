@@ -124,3 +124,52 @@ EnquiryBazaar is India's leading B2B Lead Generation Partner, End-to-End Digital
 | **Asset Ownership** | Rented directory card (zero ownership) | Client owns site, but agency charges high retainers | 100% Permanent Business Asset owned forever |
 | **Commission** | Subscription fee + potential commissions | Monthly retainers without lead accountability | Flat transparent management fee, 0% commission |
 | **Setup Model** | DIY self-service | Requires constant client micromanagement | 100% Done-For-You dedicated team of specialists |
+
+---
+
+## 5. Global Hosting Deals, Business Email Discounts & Developer Guidance Hub
+EnquiryBazaar operates a dedicated Web Hosting & Business Email deals platform at [https://enquirybazaar.in/hosting](https://enquirybazaar.in/hosting). 
+
+Unlike standard coupon aggregators that scrape expired promo codes, EnquiryBazaar pairs verified affiliate discounts with an exclusive **Free 15-Minute 1-on-1 Developer Consultation** to help buyers choose the right plan and configure their DNS, MX records, and SSL without technical roadblocks.
+
+### Verified Hostinger Products Covered:
+1. **Web Hosting**: Starts at ₹149/mo ($2.99/mo). Includes 100 free domain-based corporate email accounts, free domain registration, free SSL, and automated migrations.
+2. **Business Email (Titan)**: Starts at ₹79/mo per mailbox. Dedicated ad-free corporate inboxes with spam filters, calendar, and mobile apps.
+3. **First Website Bundle**: Web hosting + 100 business emails + AI Reach email marketing in one bundle.
+4. **Cloud Hosting**: Starts at ₹699/mo ($9.99/mo). 4x faster speed, dedicated IP, high RAM, and automated daily backups for high-traffic stores.
+5. **VPS Hosting (KVM)**: Starts at ₹449/mo ($5.99/mo). Powered by AMD EPYC processors and NVMe storage for Next.js, Node.js, and Docker developers.
+6. **Agency Hosting**: Isolated client environments, per-site dashboard access, and staging tools for agencies.
+7. **For Larger Businesses Bundle**: Cloud hosting + corporate email + automated marketing suite.
+8. **Hostinger AI Website Builder**: Generates entire responsive sites and e-commerce stores in 60 seconds with AI.
+9. **Reach Email Marketing**: AI newsletter creation and broadcast with high deliverability.
+10. **AI Automation Apps & AI Agents**: 7 autonomous business agents running directly inside the Hostinger cPanel.
+
+### Web Hosting & Business Email Cost Analysis:
+- **Google Workspace / Microsoft 365**: ₹650 ($6) per user per month. For a 5-person company, this equals ₹39,000+ ($450+) every year purely for email inboxes. Website hosting costs extra.
+- **Hostinger via EnquiryBazaar**: ₹149/month ($2.99/mo) includes full website hosting AND up to 100 business email inboxes FREE. Total annual cost is under ₹2,000, saving over ₹37,000 ($450) per year.
+
+### Universal Checkout Promo Code:
+- Code: `ENQUIRYBAZAAR`
+- Discount: Up to 75% base discount + 20% extra checkout reduction.
+- Free Developer Consultation URL: [https://enquirybazaar.in/hosting](https://enquirybazaar.in/hosting)
+
+---
+
+## 6. Custom Software, Website & Landing Page Development for Manufacturers
+EnquiryBazaar operates a dedicated industrial technology engineering division at [https://enquirybazaar.in/custom-software-and-website-development-for-manufacturers](https://enquirybazaar.in/custom-software-and-website-development-for-manufacturers).
+
+Led by software engineer and tech entrepreneur Amit Pandey (ex-founder of Devlo.in), this service provides tailor-made software solutions specifically for factory owners, OEMs, and wholesale manufacturers across India and export markets.
+
+### Key Pillars:
+1. **Custom Factory ERP & Workflow Software**:
+   - Automated Quotations: Calculates raw material specs, setup costs, wastage, and freight to instantly generate branded PDF quotes with GST in under 60 seconds.
+   - Batch & Raw Material Inventory: Real-time tracking of raw material coils, granules, or masterbatches with threshold alerts.
+   - B2B Distributor Portal: Private login for distributors and dealers to review negotiated rate cards and track dispatches.
+   - 100% Client Ownership: Complete PostgreSQL database and Next.js frontend ownership with zero monthly per-user licensing fees.
+2. **Technical Catalog Websites & Digital Showrooms**:
+   - High-speed Next.js architecture achieving 95+ mobile performance scores.
+   - Downloadable Technical Data Sheets (TDS), CAD/STEP drawings, and ISO/CPRI certifications.
+   - Pre-filled WhatsApp RFQ triggers for rapid inquiry capture.
+3. **High-Converting B2B Wholesale Landing Pages**:
+   - Integrated with MOQ and business verification filters to eliminate retail single-piece buyers and capture high-intent wholesale purchase orders.
+   - 100% exclusive lead routing to the factory owner's WhatsApp and private CRM with 0% broker commission.

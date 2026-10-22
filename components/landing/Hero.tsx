@@ -75,6 +75,7 @@ export function Hero() {
           <div className="reveal mt-12 flex w-full flex-col sm:flex-row items-center justify-center gap-4" style={reveal(280)}>
             <a
               href="#book-demo"
+              onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('open-lead-modal')); }}
               className="group relative flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-[#FE5905] px-10 py-4 text-lg font-bold text-white shadow-[0_0_40px_-10px_rgba(254,89,5,0.6)] transition-all duration-300 hover:bg-orange-600 hover:shadow-[0_0_60px_-15px_rgba(254,89,5,0.8)] hover:-translate-y-1 active:scale-95"
             >
               <span>Book Free Demo</span>

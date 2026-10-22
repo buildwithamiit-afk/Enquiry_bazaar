@@ -11,6 +11,7 @@ import { FinalCTA } from "@/components/landing/FinalCTA";
 import { HomeContactSection } from "@/components/landing/HomeContactSection";
 import { Footer } from "@/components/landing/Footer";
 import { CataloguePopup } from "@/components/landing/CataloguePopup";
+import { LeadModal } from "@/components/landing/LeadModal";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       </main>
       <Footer />
       <CataloguePopup />
+      <LeadModal />
     </>
   );
 }

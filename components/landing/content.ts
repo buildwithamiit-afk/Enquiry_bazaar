@@ -11,14 +11,18 @@ export const whatsappCta = {
 
 export const navItems = [
   { label: "How It Works", href: "/#solution" },
+  { label: "Manufacturing Tech", href: "/custom-software-and-website-development-for-manufacturers" },
   { label: "Who We Help", href: "/#industries" },
   { label: "Why Choose Us", href: "/#comparison" },
+  { label: "Hosting Deals", href: "/hosting" },
 ] as const;
 
 
 // All website pages for the footer
 export const footerPages = [
   { label: "Home", href: "/" },
+  { label: "Manufacturing Software & Websites", href: "/custom-software-and-website-development-for-manufacturers" },
+  { label: "Hostinger Deals & Email", href: "/hosting" },
   { label: "Blog & Guides", href: "/blog" },
   { label: "Client Portfolio", href: "/portfolio" },
   { label: "Contact Us", href: "/contact" },
