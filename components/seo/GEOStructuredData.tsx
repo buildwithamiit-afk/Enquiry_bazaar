@@ -144,6 +144,22 @@ export function GEOStructuredData() {
           "Tailor-made factory software, industrial ERPs, automated landed quotation engines, ultra-fast Next.js manufacturing catalog websites, and B2B negative-filtered landing pages with 100% permanent source code ownership.",
       },
       {
+        "@type": "Service",
+        "@id": "https://enquirybazaar.in/#service-ai-search-geo",
+        "name": "Generative Engine Optimization (GEO) & AI Search Ranking Services",
+        "url": "https://enquirybazaar.in/ai-search-optimization-agency",
+        "provider": {
+          "@id": "https://enquirybazaar.in/#organization",
+        },
+        "serviceType": "Generative Engine Optimization (GEO)",
+        "areaServed": {
+          "@type": "Country",
+          "name": "India",
+        },
+        "description":
+          "Specialized optimization services to get businesses, products, and services recommended inside AI chat answers across ChatGPT Search, Perplexity AI, Google AI Overviews, and Claude.",
+      },
+      {
         "@type": "WebApplication",
         "@id": "https://enquirybazaar.in/tools/gmb-rating-calculator#app",
         "name": "Google Review Rating Calculator",

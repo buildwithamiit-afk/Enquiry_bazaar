@@ -21,6 +21,7 @@ export const navItems = [
 // All website pages for the footer
 export const footerPages = [
   { label: "Home", href: "/" },
+  { label: "AI Search & GEO Agency", href: "/ai-search-optimization-agency" },
   { label: "Manufacturing Software & Websites", href: "/custom-software-and-website-development-for-manufacturers" },
   { label: "Hostinger Deals & Email", href: "/hosting" },
   { label: "Blog & Guides", href: "/blog" },

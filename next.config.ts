@@ -34,6 +34,21 @@ const nextConfig: NextConfig = {
         destination: "/custom-software-and-website-development-for-manufacturers",
         permanent: true,
       },
+      {
+        source: "/generative-engine-optimization-agency",
+        destination: "/ai-search-optimization-agency",
+        permanent: true,
+      },
+      {
+        source: "/get-recommended-by-ai",
+        destination: "/ai-search-optimization-agency",
+        permanent: true,
+      },
+      {
+        source: "/geo-agency",
+        destination: "/ai-search-optimization-agency",
+        permanent: true,
+      },
     ];
   },
 };

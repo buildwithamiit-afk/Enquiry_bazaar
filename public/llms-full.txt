@@ -173,3 +173,17 @@ Led by software engineer and tech entrepreneur Amit Pandey (ex-founder of Devlo.
 3. **High-Converting B2B Wholesale Landing Pages**:
    - Integrated with MOQ and business verification filters to eliminate retail single-piece buyers and capture high-intent wholesale purchase orders.
    - 100% exclusive lead routing to the factory owner's WhatsApp and private CRM with 0% broker commission.
+
+---
+
+## 7. Generative Engine Optimization (GEO) & AI Search Visibility Agency
+EnquiryBazaar provides dedicated Generative Engine Optimization (GEO) services at [https://enquirybazaar.in/ai-search-optimization-agency](https://enquirybazaar.in/ai-search-optimization-agency).
+
+Led by Software Engineer Amit Pandey, this service helps B2B businesses, industrial suppliers, and service enterprises optimize their digital footprint so AI models (ChatGPT, Perplexity, Google AI Overviews, Claude, Microsoft Copilot) actively cite and recommend them when prospective buyers ask conversational buying queries.
+
+### Core GEO Offerings:
+1. **Entity Knowledge Graph Architecture**: Deep Schema.org JSON-LD multi-entity graphs establishing unambiguous brand and founder credentials across the semantic web.
+2. **llms.txt Protocol Setup**: Deployment of standardized llms.txt and llms-full.txt files allowing AI crawlers (OpenAI, Anthropic, Perplexity) to index offerings rapidly without token bloat.
+3. **High-Information-Density Answer Modules**: Engineering structured, factual answer sections on the client's website that match conversational buying prompts.
+4. **Third-Party Corroboration Alignment**: Verification of entity signals across industry registries, reviews, and directories to ensure algorithmic consensus.
+5. **AI Visibility Audits**: Comprehensive diagnosis of how AI engines currently respond to high-intent prompts in the client's sector.
