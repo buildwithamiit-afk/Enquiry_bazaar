@@ -25,6 +25,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const availableServices = [
   "B2B Lead Generation & Buyer Enquiries",
   "Website Design & Development",
+  "Shopify Store Development (Ahmedabad & Gujarat)",
   "Google Search & Local Maps (GMB) Ranking",
   "Google & Meta (Facebook/Insta) Paid Ads",
   "Search Engine Optimization (SEO)",

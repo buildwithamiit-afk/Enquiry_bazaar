@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { 
   Cpu, 
   Globe2, 
@@ -238,7 +239,7 @@ export function MfgPillars() {
                     </div>
                   </div>
 
-                  <div className="pt-2">
+                  <div className="pt-2 flex flex-wrap items-center gap-3">
                     <a
                       href="#contact-section"
                       className="inline-flex items-center gap-2 rounded-xl bg-[#FE5905] px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-[#ff6f26]"
@@ -246,6 +247,12 @@ export function MfgPillars() {
                       <span>Plan Your Technical Factory Website</span>
                       <ArrowRight className="h-4 w-4" />
                     </a>
+                    <Link
+                      href="/shopify-development-company-ahmedabad"
+                      className="inline-flex items-center gap-1.5 rounded-xl border border-slate-300 bg-white px-4 py-3 text-xs sm:text-sm font-semibold text-[#001A55] hover:border-[#FE5905] hover:text-[#FE5905] transition-colors"
+                    >
+                      <span>Shopify B2B &amp; Wholesale in Ahmedabad &rarr;</span>
+                    </Link>
                   </div>
                 </div>
 

@@ -157,5 +157,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.98,
     },
+    {
+      url: `${baseUrl}/shopify-development-company-ahmedabad`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.98,
+    },
   ];
 }
